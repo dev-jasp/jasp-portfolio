@@ -1,13 +1,12 @@
-
-import Navbar from './assets/Components/Navbar'; 
-
+import CustomHeader from './assets/Components/CustomHeader';
 
 function App() {
-  return (
-    <div>
-      <Navbar />
-    </div>
-  );
+    return(
+        <div>
+            <CustomHeader/>
+        </div>
+    );
+
 }
 
-export default App;
+export default App; 
