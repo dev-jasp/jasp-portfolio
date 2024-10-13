@@ -1,12 +1,11 @@
 import CustomHeader from './assets/Components/CustomHeader';
-import MainContent from './assets/Components/MainContent'
+import MainContent from './assets/Components/Main'; 
+
 function App() {
     return(
         <div>
-            <div>
             <CustomHeader/>
-            </div>
-            <div><MainContent/></div>
+            <MainContent/>
         </div>
     );
 
