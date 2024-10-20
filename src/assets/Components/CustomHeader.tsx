@@ -1,4 +1,7 @@
-import { FaMoon } from 'react-icons/fa';
+"use client";
+
+import React from 'react';
+
 import { RxHamburgerMenu } from "react-icons/rx";
 
 const CustomHeader = () => {

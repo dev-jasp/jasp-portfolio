@@ -1,12 +1,8 @@
-import { Instagram, Facebook, Linkedin } from 'lucide-react';
+import { FaInstagram, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3 } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { SiChakraui } from "react-icons/si";
-import { SiMui } from "react-icons/si";
-import { RiNextjsFill } from "react-icons/ri";
+import { FaHtml5, FaCss3, FaReact } from "react-icons/fa";
+import { RiTailwindCssFill, RiNextjsFill } from "react-icons/ri";
+import { SiChakraui, SiMui } from "react-icons/si";
 
 const Main = () => {
     return(
@@ -14,12 +10,25 @@ const Main = () => {
         <h2 className=" text-4xl font-bold font-Poppins">Jaspher Gargar</h2>
         <h3 className="text-xl font-semibold text-blue-700 py-2">Frontend Developer</h3>
         <p className="text-sm font-Poppins py-4 leading-loose">Blending design and technology to craft interactive, user-friendly interfaces that deliver seamless and impactful digital experiences</p>
+        
+         {/* Social Media Icons with link*/}
       <div className="text-5xl flex justify-center space-x-8 py-6">
-        <div className="hover "><Facebook/></div>
-        <Instagram/>
-        <Linkedin/>
+        <div>
+        <a href="https://www.facebook.com/jasp.gar2/" target="_blank" rel="noopener noreferrer">
+         <FaFacebook />
+        </a>
+        
+        <a href="https://www.instagram.com/psaj__/" target="_blank" rel="noopener noreferrer">
+        <FaInstagram />
+        </a>
+        
+        <a href="" target="_blank" rel="noopener noreferrer">
+        <FaLinkedin />
+        </a>
+        </div>
       </div>
 
+        {/* About me*/}
       <div className="mt-24 text-md">
         <a href="#" className="flex flex-col items-center bg-gray-800 border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl">
         <img 
