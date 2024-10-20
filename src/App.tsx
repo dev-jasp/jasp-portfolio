@@ -4,7 +4,7 @@ import Footer from './assets/Components/Footer';
 
 function App() {
     return(
-        <div className="bg-slate-100">
+        <div className="bg-white">
             <CustomHeader/>
             <MainContent/>
             <Footer/>
