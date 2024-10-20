@@ -35,10 +35,10 @@ const Main = () => {
             alt="Profile"
         />
         <div className="flex flex-col justify-between p-4 tracking-normal md:p-6">
-            <h5 className="text-xl text-left font-semibold text-white">
+            <h5 className="text-xl text-left ml-2 font-semibold text-white">
                 Hi! I'm Jaspher ✌
             </h5>
-            <p className="my-8 mb-2 mx-2 text-sm text-left leading-relaxed text-slate-200">
+            <p className="my-10 mb-2 mx-2 text-md text-left leading-relaxed text-slate-200">
                 I am a dedicated Front-End Developer with a strong passion for building intuitive and engaging web applications. With a solid foundation in HTML, CSS, and JavaScript, I specialize in creating responsive designs that enhance user experiences across various devices.
             </p>
        </div>   
@@ -47,7 +47,7 @@ const Main = () => {
       <div className="mt-32 text-md">
       <a href="#" className="flex flex-col items-center bg-gray-800 border border-blue-700 rounded-lg shadow md:flex-row md:max-w-xl">
         <div className="flex flex-col justify-between p-4 tracking-normal md:p-6">
-          <h5 className="text-xl text-left mb-4 font-semibold text-white">Tech Stacks</h5>
+          <h5 className="text-xl text-left mb-6 ml-2 font-semibold text-white">Tech Stacks</h5>
           <ul className="grid grid-cols-4 gap-8 space-x-2 mt-5 mr-8">
           <li>
             <FaHtml5 className="text-orange-600" size={70} />
@@ -73,7 +73,7 @@ const Main = () => {
           <li>
             <SiMui className="text-blue-500"size={70}/></li>
           </ul>
-          <p className="my-8 mb-2 mx-2 mt-14 text-sm text-left leading-relaxed text-slate-200">
+          <p className="my-8 mb-2 mx-2 mt-14 text-md text-left leading-relaxed text-slate-200">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, quod labore. Quisquam iusto vitae quos aliquid eveniet, quia est sapiente natus quas reiciendis, veniam maiores corrupti assumenda impedit fugit hic?
           </p>
         </div>
