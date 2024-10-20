@@ -1,6 +1,10 @@
+import React from 'react'
+
 const Sidebar = () => {
   return (
-    <div>Sidebar</div>
+   <nav className="mt-4">
+    <ul></ul>
+   </nav>
   )
 }
 
