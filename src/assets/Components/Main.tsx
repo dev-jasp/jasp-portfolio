@@ -6,11 +6,12 @@ import { SiChakraui, SiMui } from "react-icons/si";
 
 const Main = () => {
     return(
-      <div className="text-gray-800 text-center p-10 mt-24 font-Poppins">
-        <h2 className=" text-4xl font-bold font-Poppins">Jaspher Gargar</h2>
-        <h3 className="text-xl mt-2 font-semibold text-blue-700 py-2">Frontend Developer</h3>
-        <p className="text-sm font-Poppins py-4 leading-loose">Blending design and technology to craft interactive, user-friendly interfaces that deliver seamless and impactful digital experiences</p>
-        
+      <main className="px-8">
+        <div className="text-center lg:text-6xl lg:text-left">
+          <h2 className="text-color5 text-5xl font-bold ">Jaspher Gargar</h2>
+          <h3 className="text-2xl text-font5 mt-2 font-bold py-2">A Frontend Developer</h3>
+          <p className="text-sm font-Poppins py-4 leading-loose">Blending design and technology to craft interactive, user-friendly interfaces that deliver seamless and impactful digital experiences</p>
+        </div>
          {/* Social Media Icons with links*/}
       <div className="text-3xl flex justify-center space-x-8 py-6">
         <a href="https://www.facebook.com/jasp.gar2/" target="_blank" rel="">
@@ -28,21 +29,6 @@ const Main = () => {
 
         {/* About me*/}
       <div className="mt-48 text-md">
-        <a href="#" className="flex flex-col items-center bg-gray-800 border rounded-lg shadow md:flex-row md:max-w-xl lg:flex-col">
-        <img 
-            className="rounded-full border-2 border-gray-700 my-10 h-52 md:h-auto md:w-48 md:rounded-full md:rounded-s-lg" 
-            src="/images/profile.jpg" 
-            alt="Profile"
-        />
-        <div className="flex flex-col justify-between p-4 tracking-normal md:p-6 ">
-            <h5 className="text-xl text-left ml-2 font-semibold text-white ">
-                Hi! I'm Jaspher ✌
-            </h5>
-            <p className="my-10 mb-2 mx-2 text-md text-left leading-relaxed text-slate-200">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, modi accusantium eos similique incidunt omnis suscipit labore ab nulla explicabo officia earum enim facere, a obcaecati ipsum dolor, laborum corrupti.
-            </p>
-       </div>   
-        </a>
       </div>
       <div className="mt-32 text-md">
       <a href="#" className="flex flex-col items-center bg-gray-800 border rounded-lg shadow md:flex-row md:max-w-xl">
@@ -82,7 +68,7 @@ const Main = () => {
       <div className="mt-40 mb-40 text-3xl text-blue-700 font-extrabold uppercase">
         Projects
       </div>
-      </div>
+    </main>
     );  
 }
 
