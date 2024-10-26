@@ -11,18 +11,10 @@ const CustomHeader = () => {
   };
 
   return (
-    <header className="px-8">
+    <header className="px-8 lg:px-20">
       <nav className="py-10 mb-10 flex justify-between items-center">
         <div>
-          <h1 className="text-3xl text-gray-800 font-Poppins font-bold">JasPortfolio</h1>
-        </div>
-        <div className="hidden md:block">
-          <ul className="flex space-x-8 lg:space-x-10 font-Poppins">
-            <li><a href="#home" className="text-gray-800 font-semibold">Home</a></li>
-            <li><a href="#about" className="text-gray-800 font-semibold ">About</a></li>
-            <li><a href="#projects" className="text-gray-800 font-semibold">Projects</a></li>
-            <li><a href="#contact" className="text-gray-800 font-semibold">Contact</a></li>
-          </ul>
+        <img src="/images/logo.png" alt="logo" className="w-20 h-auto lg:w-16" />
         </div>
         <div className="md:hidden">
           <ul className="flex items-center">
