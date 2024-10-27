@@ -11,10 +11,10 @@ const CustomHeader = () => {
   };
 
   return (
-    <header className="px-8 lg:px-[200px] ">
+    <header className="px-12 lg:px-[200px] ">
       <nav className="py-10 mb-10 flex justify-between items-center">
         <div>
-        <img src="/images/logo.png" alt="logo" className="w-[50px] h-auto lg:w-16" />
+        <img src="/images/logo1.png" alt="logo" className="w-[50px] h-auto lg:w-24 cursor-pointer" />
         </div>
         <div className="md:hidden">
           <ul className="flex items-center">
