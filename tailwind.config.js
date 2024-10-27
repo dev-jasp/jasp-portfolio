@@ -9,12 +9,18 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Poppins: 'Poppins'
+        poppins: 'Poppins',
+        scodePro: 'Source Code Pro'
       },
       colors: {
-        facebook: '#1877F2', 
-        instagram: '#E4405F',
-        linkedin: '#0077B5',
+        color1: '#001b2e',
+        color2: '#1d3f58',
+        color3: '#537692',
+        color4: '#b3cde4',
+        color5: '#eef3f9',
+      },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(to right, #2C5364, #203A43, #0F2027)',
       },
     },
   },
