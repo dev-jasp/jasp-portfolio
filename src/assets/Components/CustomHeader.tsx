@@ -11,10 +11,10 @@ const CustomHeader = () => {
   };
 
   return (
-    <header className="px-8 lg:px-20">
+    <header className="px-8 lg:px-[200px] ">
       <nav className="py-10 mb-10 flex justify-between items-center">
         <div>
-        <img src="/images/logo.png" alt="logo" className="w-20 h-auto lg:w-16" />
+        <img src="/images/logo.png" alt="logo" className="w-[50px] h-auto lg:w-16" />
         </div>
         <div className="md:hidden">
           <ul className="flex items-center">
@@ -25,7 +25,7 @@ const CustomHeader = () => {
         </div>
       </nav>
 
-      {/* Bg Blur*/}
+      
       {isOpen && (
         <div
           className="fixed inset-0 bg-black bg-opacity-20 backdrop-blur-sm z-40"
