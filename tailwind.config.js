@@ -9,8 +9,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        poppins: 'Poppins',
-        scodePro: 'Source Code Pro'
+        inter: 'Inter'
       },
       colors: {
         color1: '#001b2e',
