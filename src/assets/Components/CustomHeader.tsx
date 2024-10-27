@@ -14,11 +14,14 @@ const CustomHeader = () => {
     <header className="px-12 lg:px-[200px] ">
       <nav className="py-10 mb-10 flex justify-between items-center">
         <div>
-        <img src="/images/logo1.png" alt="logo" className="w-[50px] h-auto lg:w-24 cursor-pointer" />
+        <img src="/images/logo1.png" alt="logo" className="w-[50px] h-auto lg:w-20 cursor-pointer" />
         </div>
+        {/* <div className="">
+          <button>Check Out My Resume</button>
+        </div> */}
         <div className="md:hidden">
           <ul className="flex items-center">
-            <li className="text-2xl text-gray-800 px-0 py-1 rounded-lg ml-4 cursor-pointer" onClick={toggleDropdown}>
+            <li className="text-2xl text-gray-400 px-0 py-1 rounded-lg ml-4 cursor-pointer" onClick={toggleDropdown}>
               <RxHamburgerMenu />
             </li>
           </ul>
