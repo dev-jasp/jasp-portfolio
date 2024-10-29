@@ -11,10 +11,10 @@ const Main = () => {
       <main className="px-12 mt-[140px] lg:px-[200px] lg:mt-[120px] ">
         <div className="lg:text-center">
           <motion.h1
-             initial={{ y: -20, opacity: 0 }} // Start position (above) and opacity
-             animate={{ y: 0, opacity: 1 }} // End position and opacity
-             transition={{ duration: 0.5, delay: 1.5 }} // Animation timing
-          className="flex justify-center text-2xl text-indigo-600"><IoMdPulse /></motion.h1>
+             initial={{ y: -20, opacity: 0 }} 
+             animate={{ y: 0, opacity: 1 }} 
+             transition={{ duration: 0.5, delay: 1.5 }} 
+          className="lg:flex justify-center text-2xl text-indigo-600 hidden"><IoMdPulse /></motion.h1>
           <motion.h2 initial={{x: -100, opacity: 0}}
           animate= {{x:0, opacity: 1}}
           transition={{duration: 0.5, delay: 0.5}} className="text-4xl lg:text-[75px] mt-9 text-slate-300 font-inter font-bold tracking-tight">Crafting Digital <span className="">Magic</span></motion.h2>
@@ -22,7 +22,7 @@ const Main = () => {
           initial={{x: -100, opacity: 0}}
           animate= {{x:0, opacity: 1}}
           transition={{duration: 0.5, delay: 0.8}}
-          className="mt-4 mb-4 text-xl text-indigo-600 font-inter font-bold leading-relaxed tracking-tight lg:text-[23px] lg:mt-12 "> Jaspher Gargar <span className="text-slate-400">| Frontend Developer</span></motion.p>
+          className="mt-4 mb-4 text-xl text-indigo-600 font-inter font-bold leading-relaxed tracking-tight lg:text-[19px] lg:mt-12 "> Jaspher Gargar <span className="text-slate-400">| Frontend Developer</span></motion.p>
         </div>
          
       <motion.div 
