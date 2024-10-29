@@ -1,10 +1,16 @@
+import { motion } from "framer-motion"; 
+
 
 function VisualText() {
   return (
-    <div className="mt-[500px] px-16 pb-20">
-      <h1 className="text-xl text-slate-300 font-inter font-bold lg:text-[40px] leading-relaxed lg:tracking-tight ">I blend design and technology to create interactive, user-centered interfaces that provide smooth and meaningful digital experiences.
+    <motion.div
+    initial={{ opacity: -10, y: 20 }}
+     animate={{ opacity: 1, y: 1}}
+     transition={{ duration: 2}}
+     className="mt-[300px] px-16 pb-20 lg:mx-18">
+      <h1 className="text-md text-center text-slate-300 font-inter font-bold lg:text-[27px] leading-relaxed tracking-normal ">I combine design and technology to create user-friendly, interactive interfaces for engaging digital experiences.
       </h1>
-    </div>
+    </motion.div>
   )
 }
 

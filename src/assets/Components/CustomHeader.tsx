@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { AiOutlineClose } from 'react-icons/ai';
+import { motion } from "framer-motion"; 
+
 
 const CustomHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,9 +15,12 @@ const CustomHeader = () => {
   return (
     <header className="px-12 lg:px-[200px] ">
       <nav className="py-10 mb-10 flex justify-between items-center">
-        <div>
+        <motion.div 
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1 }}>
         <img src="/images/logo1.png" alt="logo" className="w-[50px] h-auto lg:w-20 cursor-pointer" />
-        </div>
+        </motion.div>
         {/* <div className="">
           <button>Check Out My Resume</button>
         </div> */}
