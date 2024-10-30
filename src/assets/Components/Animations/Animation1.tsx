@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import React, { ReactNode } from 'react';
 
 interface Animation1Props {
-    children: ReactNode; // 
+    children: ReactNode; 
 }
 
 const Animation1: React.FC<Animation1Props> = ({ children }) => {

@@ -9,7 +9,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        inter: 'Inter'
+        sans: ['Open Sans', 'sans-serif'],
+        // inter: 'Inter',
+
       },
       colors: {
         color1: '#001b2e',
