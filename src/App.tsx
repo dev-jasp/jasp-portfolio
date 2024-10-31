@@ -2,7 +2,7 @@
 import Sidebar from './assets/Components/Sidebar'; 
 import Footer from './assets/Components/Footer'; 
 import About from './assets/Components/About';
-import Animation1 from './assets/Components/Animations/Animation1'
+import Projects from './assets/Components/Projects';
 
 function App() {
     return(
@@ -10,6 +10,7 @@ function App() {
             <div>
             <Sidebar />
             <About />
+            <Projects />
             </div>
         </div>
         

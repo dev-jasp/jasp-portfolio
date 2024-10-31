@@ -14,11 +14,14 @@ export default {
 
       },
       colors: {
-        color1: '#001b2e',
-        color2: '#1d3f58',
-        color3: '#537692',
-        color4: '#b3cde4',
-        color5: '#eef3f9',
+        javascript: '#F7DF1E',
+        typescript: '#007ACC',
+        framerMotion: '#FF0081',
+        tailwind: '#3B82F6',
+        react: '#61DAFB',
+        next: '#000000',
+        mui: '#1976D2',
+        chakra: '#38B2AC',
       },
       backgroundImage: {
         'custom-gradient': 'linear-gradient(to right, #2C5364, #203A43, #0F2027)',
