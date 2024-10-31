@@ -10,7 +10,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Open Sans', 'sans-serif'],
-        // inter: 'Inter',
+        inter: 'Inter',
 
       },
       colors: {

@@ -9,7 +9,7 @@ import { MdDownload } from "react-icons/md";
 
 const Sidebar = () => {
     return (
-        <aside className="fixed top-0 left-0 h-full w-[700px] min-w-[300px] max-w-[800px] bg-gradient-to-r from-gray-900 to-slate-900 text-white flex flex-col items-center pt-4 space-y-6">
+        <aside className="fixed top-0 left-0 h-full w-[700px] min-w-[300px] max-w-[800px] bg-gradient-to-r from-gray-900 to-slate-900 flex flex-col items-center pt-4 space-y-6">
             <div className="text-start font-sans">
                 <img
                     src="/images/profile.jpg" 
@@ -19,7 +19,7 @@ const Sidebar = () => {
                     initial={{x: -100, opacity: 0}}
                     animate= {{x:0, opacity: 1}}
                     transition={{duration: 0.5, delay: 0.7}}
-                    className="text-4xl font-bold mt-5 mb-2 tracking-tight font-sans">Jaspher Gargar</motion.h1>
+                    className="text-4xl text-gray-100 font-bold mt-5 mb-2 tracking-tight font-sans">Jaspher Gargar</motion.h1>
                 <motion.p 
                     initial={{x: -100, opacity: 0}}
                     animate= {{x:0, opacity: 1}}
