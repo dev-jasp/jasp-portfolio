@@ -4,10 +4,21 @@ import { FaXTwitter } from "react-icons/fa6";
 import * as motion from "framer-motion/client";
 import { MdLocationOn } from "react-icons/md";
 import Animation1 from "./Animations/Animation1"; 
-import Animation2 from "./Animations/Animation2"; 
 import { MdDownload } from "react-icons/md";
+import { useState } from "react";
 
 const Sidebar = () => {
+    const [isClicked, setIsClicked] = useState(false); 
+
+    const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+        e.preventDefault();
+        setIsClicked(true); 
+        
+        setTimeout(() => {
+            setIsClicked(false); 
+            window.open("/documents/jaspher-CV.pdf", "_blank", "noopener,noreferrer");
+        }, 200);
+}; 
     return (
         <aside className="fixed top-0 left-0 h-full w-[700px] min-w-[300px] max-w-[800px] bg-gradient-to-r from-gray-900 to-slate-900 flex flex-col items-center pt-4 space-y-6">
             <div className="text-start font-sans">
@@ -48,10 +59,23 @@ const Sidebar = () => {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.5, delay: 1.4 }}
                     className="text-base mr-2">
-                    <button className="flex items-center mt-2 space-x-2 px-2 py-1 bg-transparent border-cyan-600 border-2 text-gray-300 rounded-md hover:bg-cyan-600 hover:text-white transition">
-                        <span className="tracking-normal">Dowload My CV</span>
-                        <MdDownload className="text-xl mt-1"/>
+                <a 
+                    href="/public/documents/jaspher-CV.pdf"   
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={handleClick}
+                >
+                   <button 
+                        className="flex items-center mt-2 space-x-2 px-2 py-1 bg-transparent border-cyan-600 border-2 text-gray-300 rounded-md hover:bg-cyan-600 hover:text-white transition">
+                        <span className="tracking-normal">Download My CV</span>
+                        <motion.span
+                            animate={{ y: isClicked ? -3 : 0 }}
+                            transition={{ type: "spring", stiffness: 300, damping: 12 }}
+                        >
+                            <MdDownload className="text-xl mt-1" />
+                        </motion.span>
                     </button>
+                </a>
                 </motion.div>
                 <Animation1>
                 <div className="flex space-x-4">
@@ -69,7 +93,6 @@ const Sidebar = () => {
                     </a>
                     </div>
                 </Animation1>
-              
             </div>
         </aside>
     );  
