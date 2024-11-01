@@ -1,6 +1,5 @@
 
 import Sidebar from './assets/Components/Sidebar'; 
-import Footer from './assets/Components/Footer'; 
 import About from './assets/Components/About';
 import Projects from './assets/Components/Projects';
 
@@ -10,7 +9,7 @@ function App() {
             <div>
             <Sidebar />
             <About />
-            <Projects />
+            <Projects />    
             </div>
         </div>
         
