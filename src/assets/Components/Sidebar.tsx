@@ -20,12 +20,12 @@ const Sidebar = () => {
         }, 200);
 }; 
     return (
-        <aside className="fixed top-0 left-0 h-full w-[700px] min-w-[300px] max-w-[800px] bg-gradient-to-r from-gray-900 to-slate-900 flex flex-col items-center pt-4 space-y-6">
-            <div className="text-start font-sans">
+        <aside className="top-0 left-0 h-full w-full px-4 py-4 flex flex-col items-center space-y-6 bg-gradient-to-r lg:fixed lg:w-[600px] from-gray-900 to-slate-900">
+            <div className="lg:text-start font-sans">
                 <img
                     src="/images/profile.jpg" 
                     alt="Profile"
-                    className="w-40 h-40 rounded-full mt-12"/>
+                    className="size-40 rounded-full mt-12"/>
                 <motion.h1 
                     initial={{x: -100, opacity: 0}}
                     animate= {{x:0, opacity: 1}}
