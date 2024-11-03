@@ -30,25 +30,25 @@ const Sidebar = () => {
                     initial={{x: -100, opacity: 0}}
                     animate= {{x:0, opacity: 1}}
                     transition={{duration: 0.5, delay: 0.7}}
-                    className="text-4xl text-gray-100 font-bold mt-5 mb-2 tracking-tight font-sans">Jaspher Gargar</motion.h1>
+                    className="text-2xl lg:text-4xl text-gray-100 font-bold mt-5 mb-2 tracking-tight font-sans">Jaspher Gargar</motion.h1>
                 <motion.p 
                     initial={{x: -100, opacity: 0}}
                     animate= {{x:0, opacity: 1}}
                     transition={{duration: 0.5, delay: 0.9}}
-                    className="text-cyan-600 text-xl mb-4 font-bold tracking-tight">Frontend Developer</motion.p>
+                    className="text-cyan-600 text-lg lg:text-xl mb-4 font-bold tracking-tight">Frontend Developer</motion.p>
                 <motion.p 
                     initial={{x: -100, opacity: 0}}
                     animate= {{x:0, opacity: 1}}
                     transition={{duration: 0.5, delay: 1.1}}
                     className="flex flex-row text-gray-400 mb-5">
-                    <MdLocationOn className="mt-1 text-lg text-cyan-600" />
+                    <MdLocationOn className="mt-1 text-base lg:text-lg text-cyan-600" />
                 <span className="ml-1 tracking-tight">Zamboanga City, Philippines</span>
                 </motion.p>
                 <motion.p 
                     initial={{x: -100, opacity: 0}}
                     animate= {{x:0, opacity: 1}}
                     transition={{duration: 0.5, delay: 1.3}}
-                    className="text-gray-300 text-sm mb-4 "> Crafting Tech-infused Creativity  
+                    className="text-gray-300 text-xs lg:text-sm mb-4 "> Crafting Tech-infused Creativity  
                     <span className="text-cyan-600 text-base font-extrabold"> |</span> Evolving with Technology
                 </motion.p>
             </div>
