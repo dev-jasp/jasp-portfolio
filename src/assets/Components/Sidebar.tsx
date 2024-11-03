@@ -67,7 +67,7 @@ const Sidebar = () => {
                 >
                    <button 
                         className="flex items-center mt-2 space-x-2 px-2 py-1 bg-transparent border-cyan-600 border-2 text-gray-300 rounded-md hover:bg-cyan-600 hover:text-white transition">
-                        <span className="tracking-normal">Download My CV</span>
+                        <span className="tracking-normal sm:text-base">Download My CV</span>
                         <motion.span
                             animate={{ y: isClicked ? -3 : 0 }}
                             transition={{ type: "spring", stiffness: 300, damping: 12 }}
