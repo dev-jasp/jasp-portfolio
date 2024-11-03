@@ -20,7 +20,7 @@ const Sidebar = () => {
         }, 200);
 }; 
     return (
-        <aside className="top-0 left-0 h-full w-full px-4 py-4 flex flex-col items-center space-y-6 bg-gradient-to-r lg:fixed lg:w-[600px] from-gray-900 to-slate-900">
+        <aside className="top-0 left-0 h-full w-full px-6 py-4 flex flex-col items-center space-y-6 bg-gradient-to-r lg:fixed lg:w-[600px] from-gray-900 to-slate-900">
             <div className="lg:text-start font-sans">
                 <img
                     src="/images/profile.jpg" 
@@ -53,12 +53,12 @@ const Sidebar = () => {
                 </motion.p>
             </div>
            
-            <div className="mt-6 flex items-center flex-row space-x-4 mr-14">
+            <div className="flex flex-start items-center space-x-5 mr-2 lg:mr-14">
                 <motion.div 
                     initial={{ y: 100, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.5, delay: 1.4 }}
-                    className="text-base mr-2">
+                    className="text-base">
                 <a 
                     href="/public/documents/jaspher-CV.pdf"   
                     target="_blank"
@@ -66,8 +66,8 @@ const Sidebar = () => {
                     onClick={handleClick}
                 >
                    <button 
-                        className="flex items-center mt-2 space-x-2 px-2 py-1 bg-transparent border-cyan-600 border-2 text-gray-300 rounded-md hover:bg-cyan-600 hover:text-white transition">
-                        <span className="tracking-normal sm:text-xs">Download My CV</span>
+                        className="flex items-center mt-2 text-nowrap space-x-2 px-2 py-1 bg-transparent border-cyan-600 border-2 text-gray-300 rounded-md hover:bg-cyan-600 hover:text-white transition">
+                        <span className="tracking-normal sm:text-base lg:text-base">Download My CV</span>
                         <motion.span
                             animate={{ y: isClicked ? -3 : 0 }}
                             transition={{ type: "spring", stiffness: 300, damping: 12 }}
@@ -78,7 +78,7 @@ const Sidebar = () => {
                 </a>
                 </motion.div>
                 <Animation1>
-                <div className="flex space-x-4 text-2xl">
+                <div className="flex space-x-4 text-xl">
                     <a href="https://www.instagram.com/psaj__/" target="_blank" rel="noopener noreferrer">
                         <FaInstagram className="text-gray-500 transform transition-transform ease-in-out duration-200 hover:scale-110 hover:text-cyan-600 mt-2" />
                     </a>
