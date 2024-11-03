@@ -7,9 +7,9 @@ import { TbBrandFramerMotion } from "react-icons/tb";
 function About() {
 
   return (
-   <div className="py-10 px-4 lg:ml-[600px] lg:px-10 lg:w-full bg-gradient-to-r from-slate-900 to-gray-900 font-sans">
+   <div className="py-12 px-6 lg:ml-[600px] lg:px-10 lg:w-full bg-gradient-to-r from-slate-900 to-gray-900 font-sans">
     <div className="space-y-6">
-       <h1 className="text-gray-100 text-2xl lg:text-3xl font-bold mb-12">Skills</h1>
+       <h1 className="text-cyan-600 text-3xl lg:text-3xl font-bold mb-12">Skills</h1>
        <div>
         <h4 className="text-gray-300 mb-6 font-bold text-xl">Languages</h4>
         </div>
