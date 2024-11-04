@@ -48,12 +48,12 @@ const Sidebar = () => {
                     initial={{x: -100, opacity: 0}}
                     animate= {{x:0, opacity: 1}}
                     transition={{duration: 0.5, delay: 1.3}}
-                    className="text-gray-300 text-xs lg:text-sm mb-4 "> Crafting Tech-infused Creativity  
+                    className="text-gray-300 text-xs lg:text-sm mb-1 lg:mb-4 "> Crafting Tech-infused Creativity  
                     <span className="text-cyan-600 text-base font-extrabold"> |</span> Evolving with Technology
                 </motion.p>
             </div>
            
-            <div className="flex flex-start items-center space-x-5 mr-2 lg:mr-14">
+            <div className="flex flex-start items-center space-x-5 mr-2 lg:mr-10">
                 <motion.div 
                     initial={{ y: 100, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
@@ -78,7 +78,7 @@ const Sidebar = () => {
                 </a>
                 </motion.div>
                 <Animation1>
-                <div className="flex space-x-4 text-xl">
+                <div className="flex space-x-4 text-xl lg:text-[22px] lg:ml-4">
                     <a href="https://www.instagram.com/psaj__/" target="_blank" rel="noopener noreferrer">
                         <FaInstagram className="text-gray-500 transform transition-transform ease-in-out duration-200 hover:scale-110 hover:text-cyan-600 mt-2" />
                     </a>
