@@ -2,6 +2,8 @@
 import Sidebar from './assets/Components/Sidebar'; 
 import About from './assets/Components/About';
 import Projects from './assets/Components/Projects';
+import Footer from './assets/Components/Footer';
+
 
 function App() {
     return(
@@ -11,7 +13,8 @@ function App() {
             <About />
             </div>
             <div>
-            <Projects />    
+            <Projects />   
+            <Footer/> 
             </div>
         </div>
         
