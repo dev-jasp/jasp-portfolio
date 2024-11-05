@@ -5,7 +5,6 @@ import { SiMui, SiChakraui } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 
 function About() {
-
   return (
    <div className="py-12 px-6 lg:ml-[600px] lg:px-10 lg:w-full bg-gradient-to-r from-slate-900 to-gray-900">
     <div className="space-y-6">
