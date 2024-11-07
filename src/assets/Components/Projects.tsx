@@ -1,4 +1,3 @@
-import CustomTooltip from './Tooltip/CustomTooltip'; 
 
 function Projects() {
 
@@ -6,11 +5,6 @@ function Projects() {
     <section>
         <div className="px-6 lg:ml-[600px] bg-gradient-to-r from-slate-900 to-gray-900 h-screen">
             <h1 className="text-cyan-600 text-3xl lg:text-3xl font-bold mb-10 lg:ml-4">Projects</h1>
-            <div>
-            <CustomTooltip title="This is a tooltip message">
-            <button className="text-white bg-blue-500 px-4 py-2 rounded">Hover me</button>
-          </CustomTooltip>
-            </div>
         </div>
     </section>
   )
