@@ -7,9 +7,13 @@ interface CustomTooltipProps {
 }
 
 const CustomTooltip: React.FC<CustomTooltipProps> = ({ title, children }) => (
-  <Tooltip title={title} overlayStyle={{ zIndex: 9999 }}>
-  {children}
-</Tooltip>
+  <Tooltip 
+    title={title} 
+    placement='bottom'
+    overlayClassName="custom-tooltip" // Add a custom class
+  >
+    {children}
+  </Tooltip>
 );
 
 export default CustomTooltip;
