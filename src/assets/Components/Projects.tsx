@@ -1,4 +1,3 @@
-import CustomTooltip from './Tooltip/CustomTooltip'; 
 
 function Projects() {
 
