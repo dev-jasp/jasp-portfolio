@@ -3,8 +3,8 @@ function Projects() {
 
   return (
     <section>
-        <div className="px-6 lg:ml-[600px] bg-gradient-to-r from-slate-900 to-gray-900 h-screen">
-            <h1 className="text-cyan-600 text-3xl lg:text-3xl font-bold mb-10 lg:ml-4">Projects</h1>
+        <div className="py-12 px-6 w-full lg:ml-[600px] lg:px-10 lg:items-center xl:ml-[40%] xl:px-16">
+            <h1 className="text-cyan-600 text-3xl lg:text-3xl font-bold mb-12">Projects</h1>
         </div>
     </section>
   )

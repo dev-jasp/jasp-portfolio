@@ -9,7 +9,7 @@ import Layout from './assets/Components/Layout';
 function App() {
     return(
         <Layout>
-            <div className="flex flex-col lg:flex-row">
+            <div className="flex flex-col lg:flex-row bg-gradient-to-r from-slate-900 to-gray-900">
             <Sidebar />
             <About />
             </div>
