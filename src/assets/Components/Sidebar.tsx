@@ -20,7 +20,7 @@ const Sidebar = () => {
         }, 200);
 }; 
     return (
-        <aside className="top-0 left-0 h-full w-full px-6 py-4 flex flex-col items-center space-y-6 bg-gradient-to-r lg:fixed lg:w-[600px] from-gray-900 to-slate-900">
+        <aside className="top-0 left-0 h-full w-full px-6 py-4 flex flex-col items-start space-y-6 bg-gradient-to-r lg:items-center lg:fixed lg:w-[600px] from-gray-900 to-slate-900">
             <div className="lg:text-start">
                 <img
                     src="/images/profile.jpg" 

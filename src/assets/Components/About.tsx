@@ -32,7 +32,8 @@ function About() {
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
           <SiTypescript className="h-14 w-11 text-2xl text-typescript mb-3" /></motion.span>
-        <CustomTooltip title='Holabels'>
+        <CustomTooltip title='Holabels'
+        >
         <span className="text-cyan-500 px-3 py-1.5 text-xs bg-cyan-500 bg-opacity-20 font-medium rounded-full cursor-pointer">
           TypeScript
         </span>
