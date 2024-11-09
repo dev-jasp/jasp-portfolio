@@ -5,7 +5,7 @@ interface LayoutProps {
   }
   
   const Layout: React.FC<LayoutProps> = ({ children }) => {
-    return <div className="font-sans bg-gradient-to-r from-slate-900 to-gray-900">{children}</div>;
+    return <div className="font-sans bg-gradient-to-r from-slate-900 to-gray-950">{children}</div>;
   };
   
 
