@@ -7,6 +7,22 @@ import Animation1 from "./Animations/Animation1";
 import { MdDownload } from "react-icons/md";
 import { useState } from "react";
 
+const  logoAnimation = {
+    hidden: {
+        x: '100vw'
+    }, 
+    visible: {
+        opacity: 1, 
+        x: 0,
+        transition: {
+            type: 'spring',
+            delay: 0.5,
+            stiffness: 300,
+            damping: 20
+        }
+    }   
+}
+
 const Sidebar = () => {
     const [isClicked, setIsClicked] = useState(false); 
 
@@ -22,14 +38,20 @@ const Sidebar = () => {
     return (
         <aside className="top-0 left-0 h-full w-full px-6 py-4 flex flex-col items-start space-y-6 bg-gradient-to-r lg:items-center lg:fixed lg:w-[600px] xl:w-2/5 xl:px-8 from-gray-900 to-slate-900">
             <div className="lg:text-start">
-                <img
+                <motion.div
+                    variants={logoAnimation}
+                    initial= "hidden"
+                    animate= "visible"
+                >
+                    <img
                     src="/images/profile.jpg" 
                     alt="Profile"
                     className="size-40 rounded-full mt-12"/>
+                </motion.div>
                 <motion.h1 
                     initial={{x: -100, opacity: 0}}
                     animate= {{x:0, opacity: 1}}
-                    transition={{duration: 0.5, delay: 0.7}}
+                    transition={{duration: 0.5, type: 'spring',  stiffness: '300', damping: 15, delay: 0.7}}
                     className="text-3xl lg:text-4xl text-gray-100 font-bold mt-5 mb-2 tracking-tight font-sans">Jaspher Gargar</motion.h1>
                 <motion.p 
                     initial={{x: -100, opacity: 0}}
