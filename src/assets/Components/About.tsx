@@ -9,7 +9,7 @@ import CustomTooltip from './Tooltip/CustomTooltip';
 
 function About() {
   return (
-   <div className="py-12 px-6 w-full lg:ml-[600px] lg:px-10 lg:items-center xl:ml-[40%] xl:px-16 lg:bg-gradient-to-r  from-slate-950 to-gray-900">
+   <div className="py-12 px-6 w-full lg:ml-[600px] lg:w-[calc(100vw-600px)] lg:px-10 lg:items-center xl:ml-[40%] xl:px-16 xl:w-[calc(100vw-40%)] lg:bg-gradient-to-r  from-slate-950 to-gray-900">
     <div className="space-y-6">
        <h1 className="text-cyan-600 text-3xl lg:text-3xl font-bold mb-12">Skills</h1>
        <div>
