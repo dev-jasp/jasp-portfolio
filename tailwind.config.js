@@ -22,6 +22,10 @@ export default {
         next: '#000000',
         mui: '#1976D2',
         chakra: '#38B2AC',
+        git: '#F05033',
+        vscode: '#007ACC',
+        vercel: '#000000',
+        netlify: '#00C7B7',
       },
       backgroundImage: {
         'custom-gradient': 'linear-gradient(to right, #2C5364, #203A43, #0F2027)',
