@@ -1,8 +1,9 @@
 import { DiJavascript } from "react-icons/di";
-import { SiTypescript } from "react-icons/si";
 import { RiReactjsFill, RiTailwindCssFill, RiNextjsFill } from "react-icons/ri";
-import { SiMui, SiChakraui } from "react-icons/si";
+import { SiMui, SiChakraui, SiTypescript, SiVercel, SiNetlify } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
+import { FaGit } from "react-icons/fa";
+import { VscVscode } from "react-icons/vsc";
 import { motion } from "framer-motion"; 
 import CustomTooltip from './Tooltip/CustomTooltip'; 
 
@@ -21,7 +22,7 @@ function About() {
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <DiJavascript className="h-14 w-16 text-2xl text-javascript mb-3" /></motion.span>
+          <DiJavascript className="h-12 w-14 text-2xl text-javascript mb-3" /></motion.span>
         <span className="text-cyan-500 px-3 py-1.5 text-xs bg-cyan-500 bg-opacity-20 font-medium rounded-full cursor-pointer">
           JavaScript
         </span>
@@ -31,7 +32,7 @@ function About() {
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <SiTypescript className="h-14 w-11 text-2xl text-typescript mb-3" /></motion.span>
+          <SiTypescript className="h-12 w-9 text-2xl text-typescript mb-3" /></motion.span>
         <CustomTooltip title='Holabels'
         >
         <span className="text-cyan-500 px-3 py-1.5 text-xs bg-cyan-500 bg-opacity-20 font-medium rounded-full cursor-pointer">
@@ -41,7 +42,7 @@ function About() {
       </div>
       </div>
        <div>
-        <h4 className="text-gray-300 mb-6 font-bold text-xl">Frameworks</h4>
+        <h4 className="text-gray-300 mb-6 font-bold text-xl">Frameworks & Libraries</h4>
         </div>
       <div className="flex flex-wrap mb-4 ">
       <div className="flex flex-col items-center mr-4 mb-4">
@@ -49,11 +50,11 @@ function About() {
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <RiReactjsFill className="h-14 w-16 text-2xl text-react mb-3" />
+          <RiReactjsFill className="h-12 w-14 text-2xl text-react mb-3" />
         </motion.span>
         <CustomTooltip title="TypeScript">
               <span className="text-cyan-500 px-3 py-1.5 text-xs bg-cyan-500 bg-opacity-20 font-medium rounded-full cursor-pointer">
-                TypeScript
+                ReactJs
               </span>
             </CustomTooltip>
       </div>
@@ -62,7 +63,7 @@ function About() {
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <RiNextjsFill className="h-14 w-16 text-2xl text-slate-200 mb-3" /></motion.span>
+          <RiNextjsFill className="h-12 w-14 text-2xl text-slate-200 mb-3" /></motion.span>
         <span className="text-cyan-500 px-3 py-1.5 text-xs bg-cyan-500 bg-opacity-20 font-medium rounded-full cursor-pointer">
           NextJS
         </span>
@@ -72,7 +73,7 @@ function About() {
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <RiTailwindCssFill className="h-14 w-16 text-2xl text-tailwind mb-3" /></motion.span>
+          <RiTailwindCssFill className="h-12 w-14 text-2xl text-tailwind mb-3" /></motion.span>
         <span className="text-cyan-500 px-3 py-1.5 text-xs bg-cyan-500 bg-opacity-20 font-medium rounded-full cursor-pointer">
           Tailwindcss
         </span>
@@ -82,7 +83,7 @@ function About() {
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <SiChakraui className="h-14 w-12 text-2xl text-chakra mb-3" /></motion.span>
+          <SiChakraui className="h-12 w-10 text-2xl text-chakra mb-3" /></motion.span>
         <span className="text-cyan-500 px-3 py-1.5 text-xs bg-cyan-500 bg-opacity-20 font-medium rounded-full cursor-pointer">
           Chakra UI
         </span>
@@ -92,7 +93,7 @@ function About() {
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <SiMui className="h-14 w-12 text-2xl text-mui mb-3" /></motion.span>
+          <SiMui className="h-12 w-10 text-2xl text-mui mb-3" /></motion.span>
         <span className="text-cyan-500 px-3 py-1.5 text-xs bg-cyan-500 bg-opacity-20 font-medium rounded-full cursor-pointer">
           Material UI
         </span>
@@ -102,9 +103,55 @@ function About() {
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <TbBrandFramerMotion className="h-14 w-16 text-2xl text-framerMotion mb-3" /></motion.span>
+          <TbBrandFramerMotion className="h-12 w-14 text-2xl text-framerMotion mb-3" /></motion.span>
         <span className="text-cyan-500 px-3 py-1.5 text-xs bg-cyan-500 bg-opacity-20 font-medium rounded-full cursor-pointer">
           Framer Motion
+        </span>
+      </div>
+      </div>
+       <div>
+        <h4 className="text-gray-300 mb-6 font-bold text-xl">Tools & Platforms</h4>
+        </div>
+      <div className="flex flex-wrap mb-4 ">
+      <div className="flex flex-col items-center mr-4 mb-4">
+        <motion.span
+        whileHover={{scale: 1.2}}
+        transition={{type: 'spring', stiffness: 300, damping: 10}}
+        >
+          <FaGit className="h-12 w-10 text-2xl text-gray-300 mb-3" />
+        </motion.span>
+            <span className="text-cyan-500 px-3 py-1.5 text-xs bg-cyan-500 bg-opacity-20 font-medium rounded-full cursor-pointer">
+                Git
+            </span>
+      </div>
+      <div className="flex flex-col items-center mr-4 mb-4">
+        <motion.span
+        whileHover={{scale: 1.2}}
+        transition={{type: 'spring', stiffness: 300, damping: 10}}
+        >
+          <VscVscode className="h-12 w-11 text-2xl text-vscode mb-3" /></motion.span>
+        <span className="text-cyan-500 px-3 py-1.5 text-xs bg-cyan-500 bg-opacity-20 font-medium rounded-full cursor-pointer">
+          VS Code
+        </span>
+      </div>
+      <div className="flex flex-col items-center mr-4 mb-4">
+        <motion.span
+        whileHover={{scale: 1.2}}
+        transition={{type: 'spring', stiffness: 300, damping: 10}}
+        >
+          <SiVercel className="h-12 w-10 text-2xl text-gray-300 mb-3" /></motion.span>
+        <span className="text-cyan-500 px-3 py-1.5 text-xs bg-cyan-500 bg-opacity-20 font-medium rounded-full cursor-pointer">
+          Vercel
+        </span>
+      </div>
+      <div className="flex flex-col items-center mr-4 mb-4">
+        <motion.span
+        whileHover={{scale: 1.2}}
+        transition={{type: 'spring', stiffness: 300, damping: 10}}
+        >
+          <SiNetlify className="h-12 w-11 text-2xl text-netlify mb-3" /></motion.span>
+        <span className="text-cyan-500 px-3 py-1.5 text-xs bg-cyan-500 bg-opacity-20 font-medium rounded-full cursor-pointer">
+          Netlify
         </span>
       </div>
       </div>
