@@ -16,8 +16,8 @@ function Footer() {
         <div className="flex items-center justify-center">
           <button>
             <a
-              href="https://www.linkedin.com/in/your-profile" // Link to LinkedIn profile
-              target="_blank" // Opens in a new tab
+              href="https://www.linkedin.com/in/james-gargar-215b69336/" 
+              target="_blank"
               className="relative inline-flex items-center justify-center px-8 py-3 overflow-hidden font-medium transition duration-300 ease-out border-2 border-slate-800 rounded-xl shadow-md group"
             >
               <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-cyan-600 group-hover:translate-x-0 ease">
