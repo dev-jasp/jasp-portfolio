@@ -92,7 +92,7 @@ const Sidebar = () => {
                         <span className="tracking-normal sm:text-base lg:text-base">Download My CV</span>
                         <motion.span
                             animate={{ y: isClicked ? -3 : 0 }}
-                            transition={{ type: "spring", stiffness: 350, damping: 5 }}
+                            transition={{ type: "spring", stiffness: 350, damping: 12 }}
                         >
                             <MdDownload className="sm:text-sm lg:text-xl mt-1" />
                         </motion.span>
