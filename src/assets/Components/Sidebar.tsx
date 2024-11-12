@@ -104,7 +104,7 @@ const Sidebar = () => {
                     <a href="https://www.instagram.com/psaj__/" target="_blank" rel="noopener noreferrer">
                         <FaInstagram className="text-gray-500 transform transition-transform ease-in-out duration-200 hover:scale-110 hover:text-cyan-600 mt-2" />
                     </a>
-                    <a href="https://www.linkedin.com/in/your-profile/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
                         <FiLinkedin className="text-gray-500 transform transition-transform ease-in-out duration-200 hover:scale-110 hover:text-cyan-600 mt-2" />
                     </a>
                     <a href="https://twitter.com/your-profile" target="_blank" rel="noopener noreferrer">
