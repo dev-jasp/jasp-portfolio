@@ -15,10 +15,19 @@ function Footer() {
         
         <div className="flex items-center justify-center">
           <button>
-            <a href="#_" className="relative inline-flex items-center justify-center px-8 py-3 overflow-hidden font-medium transition duration-300 ease-out border-2 border-slate-800 rounded-xl shadow-md group">
-              
+            <a
+              href="https://www.linkedin.com/in/your-profile" // Link to LinkedIn profile
+              target="_blank" // Opens in a new tab
+              className="relative inline-flex items-center justify-center px-8 py-3 overflow-hidden font-medium transition duration-300 ease-out border-2 border-slate-800 rounded-xl shadow-md group"
+            >
               <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-cyan-600 group-hover:translate-x-0 ease">
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <svg
+                  className="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -29,7 +38,7 @@ function Footer() {
               </span>
 
               <span className="relative invisible">Connect with Me!</span>
-              <span className="absolute flex items-center justify-center w-full h-full font-bold text-cyan-600 text-lg lg:text-xl transition-all duration-300 transform group-hover:translate-x-full ease">
+              <span className="absolute flex items-center justify-center w-full h-full font-bold text-cyan-500 text-lg lg:text-xl transition-all duration-300 transform group-hover:translate-x-full ease">
                 Connect with Me!
               </span>
             </a>
