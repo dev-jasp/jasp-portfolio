@@ -2,7 +2,7 @@ import { DiJavascript } from "react-icons/di";
 import { RiReactjsFill, RiTailwindCssFill, RiNextjsFill } from "react-icons/ri";
 import { SiMui, SiChakraui, SiTypescript, SiVercel, SiNetlify } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
-import { FaGit } from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa";
 import { VscVscode } from "react-icons/vsc";
 import { motion } from "framer-motion"; 
 import CustomTooltip from './Tooltip/CustomTooltip'; 
@@ -118,7 +118,7 @@ function About() {
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <FaGit className="h-12 w-10 text-2xl text-gray-300 mb-3" />
+          <FaGitAlt className="h-12 w-10 text-2xl text-gray-300 mb-3" />
         </motion.span>
             <span className="text-cyan-500 px-3 py-1.5 text-xs bg-cyan-500 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
                 Git
@@ -139,7 +139,7 @@ function About() {
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <SiVercel className="h-12 w-10 text-2xl text-slate-300 mb-3" /></motion.span>
+          <SiVercel className="h-12 w-10 text-2xl text-gray-300 mb-3" /></motion.span>
         <span className="text-cyan-500 px-3 py-1.5 text-xs bg-cyan-500 border-2 border-slate-800 bg-opacity-5 font-medium rounded-full cursor-pointer">
           Vercel
         </span>
