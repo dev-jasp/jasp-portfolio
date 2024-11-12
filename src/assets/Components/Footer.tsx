@@ -38,7 +38,7 @@ function Footer() {
               </span>
 
               <span className="relative invisible">Connect with Me!</span>
-              <span className="absolute flex items-center justify-center w-full h-full font-bold text-cyan-500 text-lg lg:text-xl transition-all duration-300 transform group-hover:translate-x-full ease">
+              <span className="absolute flex items-center justify-center w-full h-full font-bold text-cyan-600 text-lg lg:text-xl transition-all duration-300 transform group-hover:translate-x-full ease">
                 Connect with Me!
               </span>
             </a>
