@@ -82,7 +82,7 @@ const Sidebar = () => {
                     transition={{ duration: 0.5, delay: 1.4 }}
                     className="text-base">
                 <a 
-                    href="/public/documents/jaspher-CV.pdf"   
+                    href="/public/documents/jaspher-CV2.pdf"   
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={handleClick}
