@@ -4,13 +4,10 @@ function Footer() {
       <div className="w-full py-12 px-6 lg:ml-[600px] lg:w-[calc(100vw-600px)] lg:px-10 lg:items-center xl:ml-[40%] xl:px-16 xl:w-[calc(100vw-40%)] lg:bg-slate-950">
         
         <h1 className="text-center font-extrabold tracking-tight text-gray-400 text-md sm:text-2xl md:text-2xl lg:text=2xl">
-          I'm actively seeking new opportunities
+          I'm currently seeking new opportunities
         </h1>
-        <h1 className="text-center font-extrabold tracking-tight capitalize text-cyan-600 text-xl sm:text-3xl md:text-3xl lg:text-4xl">
+        <h1 className="text-center font-extrabold tracking-tight capitalize text-cyan-600 text-xl sm:text-3xl md:text-3xl lg:text-4xl mb-8">
           Feel free to reach out!
-        </h1>
-        <h1 className="text-center mb-7 font-extrabold tracking-tight text-gray-500 text-sm sm:text-xl md:text-xl lg:text-xl">
-          I’ll be sure to respond as soon as possible
         </h1>
         
         <div className="flex items-center justify-center">
