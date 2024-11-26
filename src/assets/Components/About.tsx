@@ -14,7 +14,7 @@ function About() {
     <div className="space-y-6">
        <h1 className="text-cyan-600 text-3xl lg:text-3xl font-bold mb-12">Skills</h1>
        <div>
-        <h4 className="text-gray-300 mb-6 font-bold text-xl">Languages</h4>
+        <h4 className="text-slate-300 mb-6 font-bold text-xl">Languages</h4>
         </div>
       <div className="flex flex-wrap mb-4">
       <div className="flex flex-col items-center mr-4 mb-4">
@@ -42,7 +42,7 @@ function About() {
       </div>
       </div>
        <div>
-        <h4 className="text-gray-300 mb-6 font-bold text-xl">Frameworks & Libraries</h4>
+        <h4 className="text-slate-300 mb-6 font-bold text-xl">Frameworks & Libraries</h4>
         </div>
       <div className="flex flex-wrap mb-4 ">
       <div className="flex flex-col items-center mr-4 mb-4">
@@ -110,7 +110,7 @@ function About() {
       </div>
       </div>
        <div>
-        <h4 className="text-gray-300 mb-6 font-bold text-xl">Tools & Platforms</h4>
+        <h4 className="text-slate-300 mb-6 font-bold text-xl">Tools & Platforms</h4>
         </div>
       <div className="flex flex-wrap mb-4 ">
       <div className="flex flex-col items-center mr-4 mb-4">

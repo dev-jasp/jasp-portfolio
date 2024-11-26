@@ -52,7 +52,7 @@ const Sidebar = () => {
                     initial={{x: -100, opacity: 0}}
                     animate= {{x:0, opacity: 1}}
                     transition={{duration: 0.5, type: 'spring',  stiffness: '300', damping: 15, delay: 0.7}}
-                    className="text-3xl lg:text-4xl text-gray-100 font-bold mt-5 mb-2 tracking-tight font-sans">Jaspher Gargar</motion.h1>
+                    className="text-3xl lg:text-4xl text-slate-200 font-bold mt-5 mb-2 tracking-tight font-sans">Jaspher Gargar</motion.h1>
                 <motion.p 
                     initial={{x: -100, opacity: 0}}
                     animate= {{x:0, opacity: 1}}
@@ -62,7 +62,7 @@ const Sidebar = () => {
                     initial={{x: -100, opacity: 0}}
                     animate= {{x:0, opacity: 1}}
                     transition={{duration: 0.5, delay: 1.1}}
-                    className="flex flex-row text-gray-400 mb-5">
+                    className="flex flex-row text-slate-400 mb-5">
                     <MdLocationOn className="mt-1 text-base lg:text-lg text-cyan-600" />
                 <span className="ml-1 tracking-tight">Zamboanga City, Philippines</span>
                 </motion.p>
@@ -70,7 +70,7 @@ const Sidebar = () => {
                     initial={{x: -100, opacity: 0}}
                     animate= {{x:0, opacity: 1}}
                     transition={{duration: 0.5, delay: 1.3}}
-                    className="text-gray-300 text-xs lg:text-sm mb-1 lg:mb-4 "> Crafting Tech-infused Creativity  
+                    className="text-slate-300 text-xs lg:text-sm mb-1 lg:mb-4 "> Crafting Tech-infused Creativity  
                     <span className="text-cyan-600 text-base font-extrabold"> |</span> Evolving with Technology
                 </motion.p>
             </div>
@@ -88,7 +88,7 @@ const Sidebar = () => {
                     onClick={handleClick}
                 >
                    <button 
-                        className="flex items-center mt-2 text-nowrap space-x-2 px-2 py-1 bg-transparent border-cyan-600 border-2 text-gray-300 rounded-md hover:bg-cyan-600 hover:text-white transition">
+                        className="flex items-center mt-2 text-nowrap space-x-2 px-2 py-1 bg-transparent border-slate-500 border-2 text-gray-300 rounded-md hover:bg-cyan-600 hover:border-cyan-600 hover:text-slate-200 transition">
                         <span className="tracking-normal sm:text-base lg:text-base">Download My CV</span>
                         <motion.span
                             animate={{ y: isClicked ? -3 : 0 }}
@@ -102,16 +102,16 @@ const Sidebar = () => {
                 <Animation1>
                 <div className="flex space-x-4 text-xl lg:text-[22px] lg:ml-4">
                     <a href="https://www.instagram.com/psaj__/" target="_blank" rel="noopener noreferrer">
-                        <FaInstagram className="text-gray-500 transform transition-transform ease-in-out duration-200 hover:scale-110 hover:text-cyan-600 mt-2" />
+                        <FaInstagram className="text-slate-500 transform transition-transform ease-in-out duration-200 hover:scale-110 hover:text-cyan-600 mt-2" />
                     </a>
                     <a href="https://www.linkedin.com/in/james-gargar-215b69336/" target="_blank" rel="noopener noreferrer">
-                        <FiLinkedin className="text-gray-500 transform transition-transform ease-in-out duration-200 hover:scale-110 hover:text-cyan-600 mt-2" />
+                        <FiLinkedin className="text-slate-500 transform transition-transform ease-in-out duration-200 hover:scale-110 hover:text-cyan-600 mt-2" />
                     </a>
                     <a href="https://twitter.com/your-profile" target="_blank" rel="noopener noreferrer">
-                        <FaXTwitter className="text-gray-500 transform transition-transform ease-in-out duration-200 hover:scale-110 hover:text-cyan-600 mt-2" />
+                        <FaXTwitter className="text-slate-500 transform transition-transform ease-in-out duration-200 hover:scale-110 hover:text-cyan-600 mt-2" />
                     </a>
                     <a href="https://github.com/nattycodes2" target="_blank" rel="noopener noreferrer">
-                        <FiGithub className="text-gray-500 transform transition-transform ease-in-out duration-200 hover:scale-110 hover:text-cyan-600 mt-2"/>
+                        <FiGithub className="text-slate-500 transform transition-transform ease-in-out duration-200 hover:scale-110 hover:text-cyan-600 mt-2"/>
                     </a>
                     </div>
                 </Animation1>
