@@ -21,8 +21,8 @@ function About() {
         About
       </h1>
         <p className="text-slate-400 font-medium text-base leading-relaxed">I’m a 23-year-old software developer with a keen interest in exploring emerging technologies to continually expand my skill set.</p>
-        <p className="text-slate-400 font-medium text-base leading-relaxed">Everything here is more than just a collection of projects—it's a reflection of my skills, creativity, and dedication as a front-end developer. Every detail has been thoughtfully crafted to demonstrate my expertise in designing intuitive, responsive, and visually engaging user experiences.</p>
-        <p className="text-slate-400 font-medium text-base leading-relaxed">I believe that your health is your greatest asset, and it's definitely the best investment you can make. That's why when I’m not coding, you’ll find me lifting, sweating, and thriving at the gym. 💪</p>
+        <p className="text-slate-400 font-medium text-base leading-relaxed">Everything here is more than just a collection of projects—it's a reflection of my skills, creativity, and dedication as a front-end developer. Every detail has been thoughtfully crafted to demonstrate my expertise in designing intuitive and visually engaging user experiences.</p>
+        <p className="text-slate-400 font-medium text-base leading-relaxed">Apart from this, I believe that health is our greatest asset and the best investment we can make in life. That’s why, when I’m not coding, you’ll find me lifting at the gym as well as travelling and reconnecting with nature to recharge.</p>
     <div className="pt-5">
         <h1 className="flex items-center text-sky-600 text-2xl lg:text-2xl font-bold mb-8">
           <span className="mr-2">
