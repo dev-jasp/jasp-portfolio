@@ -29,7 +29,7 @@ function About() {
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
           <DiJavascript className="h-12 w-14 text-2xl text-javascript mb-3" /></motion.span>
-        <span className="text-sky-500 px-3 py-1.5 text-xs  bg-sky-500 border-2 border-slate-800 bg-opacity-5 font-medium rounded-full cursor-pointer">
+        <span className="text-sky-600 px-3 py-1.5 text-xs  bg-sky-600 border-2 border-slate-800 bg-opacity-5 font-medium rounded-full cursor-pointer">
           JavaScript
         </span>
       </div>
@@ -41,7 +41,7 @@ function About() {
           <SiTypescript className="h-12 w-9 text-2xl text-typescript mb-3" /></motion.span>
         <CustomTooltip title=''
         >
-        <span className="text-sky-500 px-3 py-1.5 text-xs bg-sky-500 border-2 border-slate-800 bg-opacity-5 font-medium rounded-full cursor-pointer">
+        <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5 font-medium rounded-full cursor-pointer">
           TypeScript
         </span>
         </CustomTooltip>
@@ -59,7 +59,7 @@ function About() {
           <RiReactjsFill className="h-12 w-14 text-2xl text-react mb-3" />
         </motion.span>
         <CustomTooltip title="">
-              <span className="text-sky-500 px-3 py-1.5 text-xs bg-sky-500 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
+              <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
                 ReactJs
               </span>
             </CustomTooltip>
@@ -70,7 +70,7 @@ function About() {
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
           <RiNextjsFill className="h-12 w-14 text-2xl text-slate-200 mb-3" /></motion.span>
-        <span className="text-sky-500 px-3 py-1.5 text-xs bg-sky-500 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
+        <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
           NextJS
         </span>
       </div>
@@ -80,7 +80,7 @@ function About() {
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
           <RiTailwindCssFill className="h-12 w-14 text-2xl text-tailwind mb-3" /></motion.span>
-        <span className="text-sky-500 px-3 py-1.5 text-xs bg-sky-500 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
+        <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
           Tailwindcss
         </span>
       </div>
@@ -90,7 +90,7 @@ function About() {
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
           <SiChakraui className="h-12 w-10 text-2xl text-chakra mb-3" /></motion.span>
-        <span className="text-sky-500 px-3 py-1.5 text-xs bg-sky-500 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
+        <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
           Chakra UI
         </span>
       </div>
@@ -100,7 +100,7 @@ function About() {
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
           <SiMui className="h-12 w-10 text-2xl text-mui mb-3" /></motion.span>
-        <span className="text-sky-500 px-3 py-1.5 text-xs bg-sky-500 border-2 border-slate-800 bg-opacity-5 font-medium rounded-full cursor-pointer">
+        <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5 font-medium rounded-full cursor-pointer">
           Material UI
         </span>
       </div>
@@ -110,7 +110,7 @@ function About() {
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
           <TbBrandFramerMotion className="h-12 w-14 text-2xl text-framerMotion mb-3" /></motion.span>
-        <span className="text-sky-500 px-3 py-1.5 text-xs bg-sky-500 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
+        <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
           Framer Motion
         </span>
       </div>
@@ -126,7 +126,7 @@ function About() {
         >
           <FaGitAlt className="h-12 w-10 text-2xl text-gray-300 mb-3" />
         </motion.span>
-            <span className="text-sky-500 px-3 py-1.5 text-xs bg-sky-500 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
+            <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
                 Git
             </span>
       </div>
@@ -136,7 +136,7 @@ function About() {
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
           <VscVscode className="h-12 w-11 text-2xl text-vscode mb-3" /></motion.span>
-        <span className="text-sky-500 px-3 py-1.5 text-xs bg-sky-500 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
+        <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
           VS Code
         </span>
       </div>
@@ -146,7 +146,7 @@ function About() {
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
           <SiVercel className="h-12 w-10 text-2xl text-gray-300 mb-3" /></motion.span>
-        <span className="text-sky-500 px-3 py-1.5 text-xs bg-sky-500 border-2 border-slate-800 bg-opacity-5 font-medium rounded-full cursor-pointer">
+        <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5 font-medium rounded-full cursor-pointer">
           Vercel
         </span>
       </div>
@@ -156,7 +156,7 @@ function About() {
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
           <SiNetlify className="h-12 w-11 text-2xl text-netlify mb-3" /></motion.span>
-        <span className="text-sky-500 px-3 py-1.5 text-xs bg-sky-500 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
+        <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
           Netlify
         </span>
       </div>
