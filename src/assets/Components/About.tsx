@@ -12,13 +12,27 @@ function About() {
   return (
    <div className="py-8 px-6 w-full lg:ml-[600px] lg:w-[calc(100vw-600px)] lg:px-10 lg:items-center xl:ml-[40%] xl:px-16 xl:w-[calc(100vw-40%)] lg:bg-slate-950">
     <div className="space-y-6">
-       <h1 className="text-sky-600 text-3xl lg:text-3xl font-bold mb-8">About</h1>
+    <h1 className="flex items-center text-sky-600 text-2xl lg:text-2xl font-bold mb-8">
+      <span className="mr-2">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Zm6-10.125a1.875 1.875 0 1 1-3.75 0 1.875 1.875 0 0 1 3.75 0Zm1.294 6.336a6.721 6.721 0 0 1-3.17.789 6.721 6.721 0 0 1-3.168-.789 3.376 3.376 0 0 1 6.338 0Z" />
+      </svg>
+      </span>
+        About
+      </h1>
         <p className="text-slate-400 font-medium text-base leading-relaxed">I’m a 23-year-old software developer with a keen interest in exploring emerging technologies to continually expand my skill set.</p>
         <p className="text-slate-400 font-medium text-base leading-relaxed">Everything here is more than just a collection of projects—it's a reflection of my skills, creativity, and dedication as a front-end developer. Every detail has been thoughtfully crafted to demonstrate my expertise in designing intuitive, responsive, and visually engaging user experiences.</p>
         <p className="text-slate-400 font-medium text-base leading-relaxed">I believe that your health is your greatest asset, and it's definitely the best investment you can make. That's why when I’m not coding, you’ll find me lifting, sweating, and thriving at the gym. 💪</p>
-        <div className="pt-5">
-       <h1 className="text-sky-600 text-3xl lg:text-3xl font-bold mb-8">Skills</h1>
-       </div>
+    <div className="pt-5">
+        <h1 className="flex items-center text-sky-600 text-2xl lg:text-2xl font-bold mb-8">
+          <span className="mr-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6.429 9.75 2.25 12l4.179 2.25m0-4.5 5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0 4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0-5.571 3-5.571-3" />
+            </svg>
+          </span>
+          Skills
+        </h1>
+    </div>
        <div>
         <h4 className="text-slate-400 mb-6 font-bold text-xl">Languages</h4>
         </div>
