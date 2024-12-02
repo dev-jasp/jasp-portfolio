@@ -46,7 +46,7 @@ const Sidebar = () => {
                     <img
                     src="/images/profile.jpg" 
                     alt="Profile"
-                    className="size-40 rounded-full mt-12"/>
+                    className="size-40 rounded-full mt-6 lg:mt-12"/>
                 </motion.div>
                 <motion.h1 
                     initial={{x: -100, opacity: 0}}
@@ -70,7 +70,7 @@ const Sidebar = () => {
                     initial={{x: -100, opacity: 0}}
                     animate= {{x:0, opacity: 1}}
                     transition={{duration: 0.5, delay: 1.3}}
-                    className="text-slate-300 text-xs lg:text-sm mb-1 lg:mb-4 "> Crafting Tech-infused Creativity  
+                    className="text-slate-300 text-[15px] lg:text-sm mb-1 lg:mb-4 "> Crafting Tech-infused Creativity  
                     <span className="text-cyan-600 text-base font-extrabold"> |</span> Evolving with Technology
                 </motion.p>
             </div>

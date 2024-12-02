@@ -10,9 +10,15 @@ import CustomTooltip from './Tooltip/CustomTooltip';
 
 function About() {
   return (
-   <div className="py-12 px-6 w-full lg:ml-[600px] lg:w-[calc(100vw-600px)] lg:px-10 lg:items-center xl:ml-[40%] xl:px-16 xl:w-[calc(100vw-40%)] lg:bg-slate-950">
+   <div className="py-8 px-6 w-full lg:ml-[600px] lg:w-[calc(100vw-600px)] lg:px-10 lg:items-center xl:ml-[40%] xl:px-16 xl:w-[calc(100vw-40%)] lg:bg-slate-950">
     <div className="space-y-6">
+       <h1 className="text-cyan-600 text-3xl lg:text-3xl font-bold mb-8">About</h1>
+        <p className="text-slate-300 font-medium text-base">I’m a 23-year-old software developer with a keen interest in exploring emerging technologies to continually expand my skill set.</p>
+        <p className="text-slate-300 font-medium text-base">Everything here is more than just a collection of projects—it's a reflection of my skills, creativity, and dedication as a front-end developer. Every detail has been thoughtfully crafted to demonstrate my expertise in designing intuitive, responsive, and visually engaging user experiences.</p>
+        <p className="text-slate-300 font-medium text-base">I believe that your health is your greatest asset, and it's definitely the best investment you can make. That's why when I’m not coding, you’ll find me lifting, sweating, and thriving at the gym. 💪</p>
+        <div className="pt-6">
        <h1 className="text-cyan-600 text-3xl lg:text-3xl font-bold mb-8">Skills</h1>
+       </div>
        <div>
         <h4 className="text-slate-300 mb-8 font-bold text-xl">Languages</h4>
         </div>
