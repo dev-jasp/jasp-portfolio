@@ -56,7 +56,7 @@ const Sidebar = () => {
                     initial={{x: -100, opacity: 0}}
                     animate= {{x:0, opacity: 1}}
                     transition={{duration: 0.5, delay: 0.9}}
-                    className="text-sky-600 text-lg lg:text-xl mb-4 font-bold tracking-tight">Frontend Developer</motion.p>
+                    className="text-sky-600 text-lg lg:text-xl mb-3 font-semibold tracking-tight">Frontend Developer</motion.p>
                 <motion.p 
                     initial={{x: -100, opacity: 0}}
                     animate= {{x:0, opacity: 1}}
