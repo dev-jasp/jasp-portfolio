@@ -87,7 +87,7 @@ const Sidebar = () => {
                     onClick={handleClick}
                 >
                   <button
-                        className="flex items-center mt-2 text-nowrap space-x-2 px-2 py-1 bg-transparent border-slate-500 border-2 text-gray-300 rounded-md hover:bg-sjy-600 hover:border-sky-600 hover:text-slate-200 transition"
+                        className="flex items-center mt-2 text-nowrap space-x-2 px-2 py-1 bg-transparent border-slate-500 border-2 text-gray-300 rounded-md hover:bg-sky-600 hover:border-sky-600 hover:text-slate-200 transition"
                     >
                         <span className="tracking-normal sm:text-base lg:text-base">Download My CV</span>
                         <motion.span
@@ -115,17 +115,17 @@ const Sidebar = () => {
                 </motion.div>
                 <Animation1>
                 <div className="flex space-x-4 text-xl lg:text-[22px] lg:ml-4">
-                    <a href="https://www.instagram.com/psaj__/" target="_blank" rel="noopener noreferrer">
-                        <FaInstagram className="text-slate-500 transform transition-transform ease-in-out duration-200 hover:scale-110 hover:text-sky-600 mt-2" />
-                    </a>
                     <a href="https://www.linkedin.com/in/james-gargar-215b69336/" target="_blank" rel="noopener noreferrer">
                         <FiLinkedin className="text-slate-500 transform transition-transform ease-in-out duration-200 hover:scale-110 hover:text-sky-600 mt-2" />
+                    </a>
+                    <a href="https://github.com/nattycodes2" target="_blank" rel="noopener noreferrer">
+                        <FiGithub className="text-slate-500 transform transition-transform ease-in-out duration-200 hover:scale-110 hover:text-sky-600 mt-2"/>
                     </a>
                     <a href="https://twitter.com/your-profile" target="_blank" rel="noopener noreferrer">
                         <FaXTwitter className="text-slate-500 transform transition-transform ease-in-out duration-200 hover:scale-110 hover:text-sky-600 mt-2" />
                     </a>
-                    <a href="https://github.com/nattycodes2" target="_blank" rel="noopener noreferrer">
-                        <FiGithub className="text-slate-500 transform transition-transform ease-in-out duration-200 hover:scale-110 hover:text-sky-600 mt-2"/>
+                    <a href="https://www.instagram.com/psaj__/" target="_blank" rel="noopener noreferrer">
+                        <FaInstagram className="text-slate-500 transform transition-transform ease-in-out duration-200 hover:scale-110 hover:text-sky-600 mt-2" />
                     </a>
                     </div>
                 </Animation1>
