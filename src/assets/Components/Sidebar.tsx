@@ -4,7 +4,6 @@ import { FaXTwitter } from "react-icons/fa6";
 import * as motion from "framer-motion/client";
 import { MdLocationOn } from "react-icons/md";
 import Animation1 from "./Animations/Animation1"; 
-import { MdDownload } from "react-icons/md";
 import { useState } from "react";
 
 const  logoAnimation = {
@@ -57,13 +56,13 @@ const Sidebar = () => {
                     initial={{x: -100, opacity: 0}}
                     animate= {{x:0, opacity: 1}}
                     transition={{duration: 0.5, delay: 0.9}}
-                    className="text-cyan-600 text-lg lg:text-xl mb-4 font-bold tracking-tight">Frontend Developer</motion.p>
+                    className="text-sky-600 text-lg lg:text-xl mb-4 font-bold tracking-tight">Frontend Developer</motion.p>
                 <motion.p 
                     initial={{x: -100, opacity: 0}}
                     animate= {{x:0, opacity: 1}}
                     transition={{duration: 0.5, delay: 1.1}}
                     className="flex flex-row text-slate-400 mb-5">
-                    <MdLocationOn className="mt-1 text-base lg:text-lg text-cyan-600" />
+                    <MdLocationOn className="mt-1 text-base lg:text-lg text-sky-600" />
                 <span className="ml-1 tracking-tight">Zamboanga City, Philippines</span>
                 </motion.p>
                 <motion.p 
@@ -71,7 +70,7 @@ const Sidebar = () => {
                     animate= {{x:0, opacity: 1}}
                     transition={{duration: 0.5, delay: 1.3}}
                     className="text-slate-300 text-[15px] lg:text-sm mb-1 lg:mb-4 "> Crafting Tech-infused Creativity  
-                    <span className="text-cyan-600 text-base font-extrabold"> |</span> Evolving with Technology
+                    <span className="text-sky-600 text-base font-extrabold"> |</span> Evolving with Technology
                 </motion.p>
             </div>
            
@@ -87,16 +86,31 @@ const Sidebar = () => {
                     rel="noopener noreferrer"
                     onClick={handleClick}
                 >
-                   <button 
-                        className="flex items-center mt-2 text-nowrap space-x-2 px-2 py-1 bg-transparent border-slate-500 border-2 text-gray-300 rounded-md hover:bg-cyan-600 hover:border-cyan-600 hover:text-slate-200 transition">
+                  <button
+                        className="flex items-center mt-2 text-nowrap space-x-2 px-2 py-1 bg-transparent border-slate-500 border-2 text-gray-300 rounded-md hover:bg-cyan-600 hover:border-cyan-600 hover:text-slate-200 transition"
+                    >
                         <span className="tracking-normal sm:text-base lg:text-base">Download My CV</span>
                         <motion.span
                             animate={{ y: isClicked ? -3 : 0 }}
                             transition={{ type: "spring", stiffness: 350, damping: 12 }}
                         >
-                            <MdDownload className="sm:text-sm lg:text-xl mt-1" />
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                strokeWidth="1.5"
+                                stroke="currentColor"
+                                className="w-6 h-5"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
+                                />
+                            </svg>
                         </motion.span>
-                    </button>
+                 </button>
+
                 </a>
                 </motion.div>
                 <Animation1>

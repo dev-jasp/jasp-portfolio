@@ -6,7 +6,7 @@ function Footer() {
         <h1 className="text-center font-extrabold tracking-tight text-gray-400 text-md sm:text-2xl md:text-2xl lg:text=2xl">
           I'm currently seeking new opportunities
         </h1>
-        <h1 className="text-center font-extrabold tracking-tight capitalize text-cyan-600 text-xl sm:text-3xl md:text-3xl lg:text-4xl mb-8">
+        <h1 className="text-center font-extrabold tracking-tight capitalize text-sky-600 text-xl sm:text-3xl md:text-3xl lg:text-4xl mb-8">
           Feel free to reach out!
         </h1>
         
@@ -17,7 +17,7 @@ function Footer() {
             target="_blank"
             className="relative inline-flex items-center justify-center px-12 py-8 overflow-hidden font-medium transition duration-300 ease-out border-2 border-slate-800 rounded-full shadow-md group"
           >
-            <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-cyan-600 group-hover:translate-x-0 ease">
+            <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-sky-600 group-hover:translate-x-0 ease">
               <svg
                 className="w-6 h-6"
                 fill="none"
@@ -34,7 +34,7 @@ function Footer() {
               </svg>
             </span>
 
-            <span className="absolute flex items-center justify-center w-full h-full text-cyan-600 transition-all duration-300 transform group-hover:translate-x-full ease">
+            <span className="absolute flex items-center justify-center w-full h-full text-sky-600 transition-all duration-300 transform group-hover:translate-x-full ease">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
