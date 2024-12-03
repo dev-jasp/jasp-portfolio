@@ -35,7 +35,7 @@ const Sidebar = () => {
         }, 200);
 }; 
     return (
-        <aside className="top-0 left-0 h-full w-full px-6 py-4 flex flex-col items-start space-y-6 bg-gradient-to-r lg:items-center lg:fixed lg:w-[600px] xl:w-2/5 xl:px-8 from-gray-900 to-slate-950">
+        <aside className="top-0 left-0 h-full w-full px-6 py-4 flex flex-col items-start space-y-6 bg-gradient-to-r lg:items-center lg:fixed lg:w-[600px] xl:w-2/5 xl:px-8 lg:py-10 from-gray-900 to-slate-950">
             <div className="lg:text-start">
                 <motion.div
                     variants={logoAnimation}
@@ -87,7 +87,7 @@ const Sidebar = () => {
                     onClick={handleClick}
                 >
                   <button
-                        className="flex items-center mt-2 text-nowrap space-x-2 px-2 py-1 bg-transparent border-slate-500 border-2 text-gray-300 rounded-md hover:bg-sky-600 hover:border-sky-600 hover:text-slate-200 transition"
+                        className="flex items-center mt-2  text-nowrap space-x-2 px-2 py-1 bg-transparent border-slate-500 border-2 text-gray-300 rounded-md hover:bg-sky-600 hover:border-sky-600 hover:text-slate-200 transition"
                     >
                         <span className="tracking-normal sm:text-base lg:text-base">Download My CV</span>
                         <motion.span
@@ -100,7 +100,7 @@ const Sidebar = () => {
                                 viewBox="0 0 24 24"
                                 strokeWidth="1.5"
                                 stroke="currentColor"
-                                className="w-6 h-5"
+                                className="size-5"
                             >
                                 <path
                                     strokeLinecap="round"
