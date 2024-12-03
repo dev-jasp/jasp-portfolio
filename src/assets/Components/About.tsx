@@ -11,7 +11,8 @@ import CustomTooltip from './Tooltip/CustomTooltip';
 function About() {
   return (
    <div className="py-8 px-6 w-full lg:ml-[600px] lg:w-[calc(100vw-600px)] lg:px-10 lg:items-center xl:ml-[40%] xl:px-16 xl:w-[calc(100vw-40%)] lg:bg-slate-950">
-    <div className="space-y-6">
+    <div className="spacey-y-0">
+      <div className="space-y-6">
     <h1 className="flex items-center text-sky-600 text-2xl lg:text-2xl font-bold mb-8">
       <span className="mr-2">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6">
@@ -23,7 +24,8 @@ function About() {
         <p className="text-slate-400 font-medium text-base leading-relaxed">I’m a 23-year-old software developer with a keen interest in exploring emerging technologies to continually expand my skill set.</p>
         <p className="text-slate-400 font-medium text-base leading-relaxed">Everything here is more than just a collection of projects—it's a reflection of my skills, creativity, and dedication as a front-end developer. Every detail has been thoughtfully crafted to demonstrate my expertise in designing intuitive and visually engaging user experiences.</p>
         <p className="text-slate-400 font-medium text-base leading-relaxed">Apart from this, I believe that health is our greatest asset and the best investment we can make in life. That’s why, when I’m not coding, you’ll find me lifting at the gym as well as travelling and reconnecting with nature to recharge.</p>
-    <div className="pt-5">
+        </div>
+    <div className="pt-8">
         <h1 className="flex items-center text-sky-600 text-2xl lg:text-2xl font-bold mb-8">
           <span className="mr-2">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6">
@@ -34,7 +36,7 @@ function About() {
         </h1>
     </div>
        <div>
-        <h4 className="text-slate-400 mb-6 font-bold text-lg">Languages</h4>
+        <h4 className="text-slate-400 !mb-4 font-bold text-[17px]">Languages</h4>
         </div>
       <div className="flex flex-wrap mb-4">
       <div className="flex flex-col items-center mr-4 mb-4">
@@ -42,7 +44,7 @@ function About() {
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <DiJavascript className="h-11 w-14 text-2xl text-javascript mb-3" /></motion.span>
+          <DiJavascript className="h-11 w-14 text-2xl text-javascript mb-2" /></motion.span>
         <span className="text-sky-600 px-3 py-1.5 text-xs  bg-sky-600 border-2 border-slate-800 bg-opacity-5 font-medium rounded-full cursor-pointer">
           JavaScript
         </span>
@@ -52,7 +54,7 @@ function About() {
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <SiTypescript className="h-11 w-9 text-2xl text-typescript mb-3" /></motion.span>
+          <SiTypescript className="h-11 w-9 text-2xl text-typescript mb-2" /></motion.span>
         <CustomTooltip title=''
         >
         <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5 font-medium rounded-full cursor-pointer">
@@ -62,7 +64,7 @@ function About() {
       </div>
       </div>
        <div>
-        <h4 className="text-slate-400 mb-6 font-bold text-lg">Frameworks & Libraries</h4>
+        <h4 className="text-slate-400 !mb-4 font-bold text-[17px]">Frameworks & Libraries</h4>
         </div>
       <div className="flex flex-wrap mb-4 ">
       <div className="flex flex-col items-center mr-4 mb-4">
@@ -70,7 +72,7 @@ function About() {
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <RiReactjsFill className="h-11 w-12 text-2xl text-react mb-3" />
+          <RiReactjsFill className="h-11 w-12 text-2xl text-react mb-2" />
         </motion.span>
         <CustomTooltip title="">
               <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
@@ -83,7 +85,7 @@ function About() {
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <RiNextjsFill className="h-11 w-14 text-2xl text-slate-200 mb-3" /></motion.span>
+          <RiNextjsFill className="h-11 w-14 text-2xl text-slate-200 mb-2" /></motion.span>
         <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
           NextJS
         </span>
@@ -93,7 +95,7 @@ function About() {
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <RiTailwindCssFill className="h-11 w-12 text-2xl text-tailwind mb-3" /></motion.span>
+          <RiTailwindCssFill className="h-11 w-12 text-2xl text-tailwind mb-2" /></motion.span>
         <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
           Tailwindcss
         </span>
@@ -103,7 +105,7 @@ function About() {
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <SiChakraui className="h-11 w-10 text-2xl text-chakra mb-3" /></motion.span>
+          <SiChakraui className="h-11 w-10 text-2xl text-chakra mb-2" /></motion.span>
         <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
           Chakra UI
         </span>
@@ -113,7 +115,7 @@ function About() {
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <SiMui className="h-11 w-10 text-2xl text-mui mb-3" /></motion.span>
+          <SiMui className="h-11 w-10 text-2xl text-mui mb-2" /></motion.span>
         <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5 font-medium rounded-full cursor-pointer">
           Material UI
         </span>
@@ -123,22 +125,22 @@ function About() {
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <TbBrandFramerMotion className="h-11 w-10 text-2xl text-framerMotion mb-3" /></motion.span>
+          <TbBrandFramerMotion className="h-11 w-10 text-2xl text-framerMotion mb-2" /></motion.span>
         <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
           Framer Motion
         </span>
       </div>
       </div>
        <div>
-        <h4 className="text-slate-400 mb-6 font-bold text-lg">Tools & Platforms</h4>
+        <h4 className="text-slate-400 mb-4 font-bold text-[17px]">Tools & Platforms</h4>
         </div>
-      <div className="flex flex-wrap mb-4 ">
+      <div className="flex flex-wrap">
       <div className="flex flex-col items-center mr-4 mb-4">
         <motion.span
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <FaGitAlt className="h-10 w-10 text-2xl text-gray-300 mb-3" />
+          <FaGitAlt className="h-10 w-10 text-2xl text-gray-300 mb-2" />
         </motion.span>
             <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
                 Git
@@ -149,7 +151,7 @@ function About() {
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <VscVscode className="h-10 w-11 text-2xl text-vscode mb-3" /></motion.span>
+          <VscVscode className="h-10 w-11 text-2xl text-vscode mb-2" /></motion.span>
         <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
           VS Code
         </span>
@@ -159,7 +161,7 @@ function About() {
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <SiVercel className="h-10 w-10 text-2xl text-gray-300 mb-3" /></motion.span>
+          <SiVercel className="h-10 w-10 text-2xl text-gray-300 mb-2" /></motion.span>
         <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5 font-medium rounded-full cursor-pointer">
           Vercel
         </span>
@@ -169,7 +171,7 @@ function About() {
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
-          <SiNetlify className="h-10 w-11 text-2xl text-netlify mb-3" /></motion.span>
+          <SiNetlify className="h-10 w-11 text-2xl text-netlify mb-2" /></motion.span>
         <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
           Netlify
         </span>
