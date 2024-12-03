@@ -115,7 +115,7 @@ const Sidebar = () => {
                 </motion.div>
                 <Animation1>
                 <div className="flex space-x-4 text-xl lg:text-[22px] lg:ml-4">
-                    <a href="https://www.linkedin.com/in/james-gargar-215b69336/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/dev-jasp/" target="_blank" rel="noopener noreferrer">
                         <FiLinkedin className="text-slate-500 transform transition-transform ease-in-out duration-200 hover:scale-110 hover:text-sky-600 mt-2" />
                     </a>
                     <a href="https://github.com/nattycodes2" target="_blank" rel="noopener noreferrer">
