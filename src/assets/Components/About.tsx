@@ -21,10 +21,16 @@ function About() {
       </span>
         About
       </h1>
-        <p className="text-slate-400 font-medium text-base leading-relaxed">I’m a 23-year-old software developer with a keen interest in exploring emerging technologies to continually expand my skill set.</p>
-        <p className="text-slate-400 font-medium text-base leading-relaxed">Everything here is more than just a collection of projects—it's a reflection of my skills, creativity, and dedication as a front-end developer. Every detail has been thoughtfully crafted to demonstrate my expertise in designing intuitive and visually engaging user experiences.</p>
-        <p className="text-slate-400 font-medium text-base leading-relaxed">Apart from this, I believe that health is our greatest asset and the best investment we can make in life. That’s why, when I’m not coding, you’ll find me lifting at the <span className="text-slate-200 cursor-pointer">gym</span> as well as travelling and reconnecting with nature to <span className="text-slate-200 cursor-pointer">recharge.</span></p>
+        <div className="space-y-6 lg:space-y-4">
+        <p className="text-slate-400 font-medium text-[17px] lg:text-base leading-7">I’m a 23-year-old software developer with a keen interest in exploring emerging technologies to continually expand my skill set.</p>
+        <p className="text-slate-400 font-medium text-[17px] lg:text-base leading-7">Everything here is more than just a collection of projects—it's a reflection of my skills, creativity, and dedication as a front-end developer. Every detail has been thoughtfully crafted to demonstrate my expertise in designing intuitive and visually engaging user experiences.</p>
+        <p className="text-slate-400 font-medium text-[17px] lg:text-base leading-7">Apart from this, I believe that health is our greatest asset and the best investment we can make in life. That’s why, when I’m not coding, you’ll find me lifting at the 
+          <span className="text-slate-200 cursor-pointer"> gym </span> 
+          as well as travelling and reconnecting with nature to 
+          <span className="text-slate-200 cursor-pointer"> recharge.</span>
+        </p>
         </div>
+    </div>
     <div className="pt-8">
         <h1 className="flex items-center text-sky-600 text-2xl lg:text-2xl font-bold mb-8">
           <span className="mr-2">
