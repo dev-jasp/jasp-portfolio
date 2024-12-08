@@ -13,7 +13,7 @@ function Footer() {
         <div className="flex items-center justify-center">
         <button>
           <a
-            href="https://www.linkedin.com/in/james-gargar-215b69336/" 
+            href="https://www.linkedin.com/in/dev-jasp/" 
             target="_blank"
             className="relative inline-flex items-center justify-center px-12 py-8 overflow-hidden font-medium transition duration-300 ease-out border-2 border-slate-800 rounded-full shadow-md group"
           >
