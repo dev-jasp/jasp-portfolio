@@ -10,7 +10,7 @@ import CustomTooltip from './Tooltip/CustomTooltip';
 
 function About() {
   return (
-   <div className="py-8 px-6 w-full lg:ml-[600px] lg:w-[calc(100vw-600px)] lg:px-2 lg:items-center xl:ml-[40%] xl:px-16 xl:w-[calc(100vw-40%)] lg:bg-slate-950">
+   <div className="py-8 px-6 w-full lg:ml-[600px] lg:w-[calc(100vw-600px)] lg:px-6 lg:items-center xl:ml-[40%] xl:px-16 xl:w-[calc(100vw-40%)] lg:bg-slate-950">
     <div className="spacey-y-0">
       <div className="space-y-6">
     <h1 className="flex items-center text-sky-600 text-2xl lg:text-2xl font-bold mb-8">
@@ -25,9 +25,9 @@ function About() {
         <p className="text-slate-400">I’m a 23-year-old software developer with a keen interest in exploring emerging trends and continuously expanding my skill set and expertise to deliver forward-thinking solutions.</p>
         <p className="text-slate-400">Everything here is more than just a collection of projects—it's a reflection of my skills, creativity, and dedication as a front-end developer. Every detail has been thoughtfully crafted to demonstrate my expertise in designing intuitive and visually engaging user experiences.</p>
         <p className="text-slate-400">Apart from this, I believe that health is our greatest asset and the best investment we can make in life. That’s why, when I’m not coding, you’ll find me lifting at the 
-          <span className="text-slate-200 hover:text-sky-600 cursor-pointer transform hover:scale-110 transition-transform duration-300"> gym </span> 
+          <span className="text-slate-100 hover:text-sky-600 cursor-pointer transform hover:scale-110 transition-transform duration-300"> gym </span> 
           as well as travelling and reconnecting with nature to 
-          <span className="text-slate-200 hover:text-sky-600 cursor-pointer"> recharge.</span>
+          <span className="text-slate-100 hover:text-sky-600 cursor-pointer"> recharge.</span>
         </p>
         </div>
     </div>
@@ -45,17 +45,17 @@ function About() {
         <h4 className="text-slate-400 !mb-4 font-bold text-[17px]">Languages</h4>
         </div>
       <div className="flex flex-wrap mb-4">
-      <div className="flex flex-col items-center mr-4 mb-4">
+      <div className="flex flex-col items-center mr-2.5 mb-4">
         <motion.span
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
           <DiJavascript className="h-11 w-14 text-2xl text-javascript mb-2" /></motion.span>
-        <span className="text-sky-600 px-3 py-1.5 text-xs  bg-sky-600 border-2 border-slate-800 bg-opacity-5 font-medium rounded-full cursor-pointer">
+        <span className="text-sky-600 px-3 py-1 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5 font-medium rounded-full cursor-pointer">
           JavaScript
         </span>
       </div>
-      <div className="flex flex-col items-center mr-4 mb-4">
+      <div className="flex flex-col items-center mr-2.5 mb-4">
         <motion.span
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
@@ -63,7 +63,7 @@ function About() {
           <SiTypescript className="h-11 w-9 text-2xl text-typescript mb-2" /></motion.span>
         <CustomTooltip title=''
         >
-        <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5 font-medium rounded-full cursor-pointer">
+        <span className="text-sky-600 px-3 py-1 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5 font-medium rounded-full cursor-pointer">
           TypeScript
         </span>
         </CustomTooltip>
@@ -73,7 +73,7 @@ function About() {
         <h4 className="text-slate-400 !mb-4 font-bold text-[17px]">Frameworks & Libraries</h4>
         </div>
       <div className="flex flex-wrap mb-4 ">
-      <div className="flex flex-col items-center mr-4 mb-4">
+      <div className="flex flex-col items-center mr-2.5 mb-4">
         <motion.span
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
@@ -81,58 +81,58 @@ function About() {
           <RiReactjsFill className="h-11 w-12 text-2xl text-react mb-2" />
         </motion.span>
         <CustomTooltip title="">
-              <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
+              <span className="text-sky-600 px-3 py-1 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
                 ReactJs
               </span>
             </CustomTooltip>
       </div>
-      <div className="flex flex-col items-center mr-4 mb-4">
+      <div className="flex flex-col items-center mr-2.5 mb-4">
         <motion.span
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
           <RiNextjsFill className="h-11 w-14 text-2xl text-slate-200 mb-2" /></motion.span>
-        <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
+        <span className="text-sky-600 px-3 py-1 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
           NextJS
         </span>
       </div>
-      <div className="flex flex-col items-center mr-4 mb-4">
+      <div className="flex flex-col items-center mr-2.5 mb-4">
         <motion.span
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
           <RiTailwindCssFill className="h-11 w-12 text-2xl text-tailwind mb-2" /></motion.span>
-        <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
+        <span className="text-sky-600 px-3 py-1 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
           Tailwindcss
         </span>
       </div>
-      <div className="flex flex-col items-center mr-4 mb-4">
+      <div className="flex flex-col items-center mr-2.5 mb-4">
         <motion.span
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
           <SiChakraui className="h-11 w-10 text-2xl text-chakra mb-2" /></motion.span>
-        <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
+        <span className="text-sky-600 px-3 py-1 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
           Chakra UI
         </span>
       </div>
-      <div className="flex flex-col items-center mr-4 mb-4">
+      <div className="flex flex-col items-center mr-2.5 mb-4">
         <motion.span
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
           <SiMui className="h-11 w-10 text-2xl text-mui mb-2" /></motion.span>
-        <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5 font-medium rounded-full cursor-pointer">
+        <span className="text-sky-600 px-3 py-1 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5 font-medium rounded-full cursor-pointer">
           Material UI
         </span>
       </div>
-      <div className="flex flex-col items-center mr-4 mb-4">
+      <div className="flex flex-col items-center mr-2.5 mb-4">
         <motion.span
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
           <TbBrandFramerMotion className="h-11 w-10 text-2xl text-framerMotion mb-2" /></motion.span>
-        <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
+        <span className="text-sky-600 px-3 py-1 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
           Framer Motion
         </span>
       </div>
@@ -141,44 +141,44 @@ function About() {
         <h4 className="text-slate-400 mb-4 font-bold text-[17px]">Tools & Platforms</h4>
         </div>
       <div className="flex flex-wrap">
-      <div className="flex flex-col items-center mr-4 mb-4">
+      <div className="flex flex-col items-center mr-2.5 mb-4">
         <motion.span
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
           <FaGitAlt className="h-10 w-10 text-2xl text-gray-300 mb-2" />
         </motion.span>
-            <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
+            <span className="text-sky-600 px-3 py-1 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
                 Git
             </span>
       </div>
-      <div className="flex flex-col items-center mr-4 mb-4">
+      <div className="flex flex-col items-center mr-2.5 mb-4">
         <motion.span
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
           <VscVscode className="h-10 w-11 text-2xl text-vscode mb-2" /></motion.span>
-        <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
+        <span className="text-sky-600 px-3 py-1 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
           VS Code
         </span>
       </div>
-      <div className="flex flex-col items-center mr-4 mb-4">
+      <div className="flex flex-col items-center mr-2.5 mb-4">
         <motion.span
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
           <SiVercel className="h-10 w-10 text-2xl text-gray-300 mb-2" /></motion.span>
-        <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5 font-medium rounded-full cursor-pointer">
+        <span className="text-sky-600 px-3 py-1 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5 font-medium rounded-full cursor-pointer">
           Vercel
         </span>
       </div>
-      <div className="flex flex-col items-center mr-4 mb-4">
+      <div className="flex flex-col items-center mr-2.5 mb-4">
         <motion.span
         whileHover={{scale: 1.2}}
         transition={{type: 'spring', stiffness: 300, damping: 10}}
         >
           <SiNetlify className="h-10 w-11 text-2xl text-netlify mb-2" /></motion.span>
-        <span className="text-sky-600 px-3 py-1.5 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
+        <span className="text-sky-600 px-3 py-1 text-xs bg-sky-600 border-2 border-slate-800 bg-opacity-5  font-medium rounded-full cursor-pointer">
           Netlify
         </span>
       </div>

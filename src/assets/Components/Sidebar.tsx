@@ -62,7 +62,7 @@ const Sidebar = () => {
                     animate= {{x:0, opacity: 1}}
                     transition={{duration: 0.5, delay: 1.1}}
                     className="flex flex-row text-slate-400 mb-5">
-                    <MdLocationOn className="mt-1 text-base lg:text-lg text-sky-600" />
+                    <MdLocationOn className="mt-1 text-base lg:text-lg text-sky-600 " />
                 <span className="ml-1 tracking-tight">Zamboanga City, Philippines</span>
                 </motion.p>
                 <motion.p 
@@ -70,7 +70,7 @@ const Sidebar = () => {
                     animate= {{x:0, opacity: 1}}
                     transition={{duration: 0.5, delay: 1.3}}
                     className="text-slate-300 text-[15px] lg:text-sm mb-1 lg:mb-4 "> Crafting Tech-infused Creativity  
-                    <span className="text-sky-600 text-base font-extrabold"> |</span> Evolving with Technology
+                    <span className="text-sky-600 lg:text-[17px] font-extrabold"> |</span> Evolving with Technology
                 </motion.p>
             </div>
            
