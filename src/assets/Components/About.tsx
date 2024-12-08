@@ -21,8 +21,8 @@ function About() {
       </span>
         About
       </h1>
-        <div className="space-y-6 lg:space-y-4">
-        <p className="text-slate-400 font-medium text-[17px] lg:text-base leading-7">I’m a 23-year-old software developer with a keen interest in exploring emerging technologies to continually expand my skill set.</p>
+        <div className="space-y-4">
+        <p className="text-slate-400 font-medium text-[17px] lg:text-base leading-7 ">I’m a 23-year-old software developer with a keen interest in exploring emerging trends and continuously expanding my skill set and expertise to deliver forward-thinking solutions.</p>
         <p className="text-slate-400 font-medium text-[17px] lg:text-base leading-7">Everything here is more than just a collection of projects—it's a reflection of my skills, creativity, and dedication as a front-end developer. Every detail has been thoughtfully crafted to demonstrate my expertise in designing intuitive and visually engaging user experiences.</p>
         <p className="text-slate-400 font-medium text-[17px] lg:text-base leading-7">Apart from this, I believe that health is our greatest asset and the best investment we can make in life. That’s why, when I’m not coding, you’ll find me lifting at the 
           <span className="text-slate-200 cursor-pointer"> gym </span> 
