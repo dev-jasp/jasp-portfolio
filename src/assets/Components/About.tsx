@@ -21,13 +21,13 @@ function About() {
       </span>
         About
       </h1>
-        <div className="space-y-4 hyphens-auto leading-7 lg:leading-relaxed font-medium text-[17px] lg:text-base">
+        <div className="space-y-4 hyphens-auto leading-7 lg:leading-relaxed font-[480] text-[17px] lg:text-base">
         <p className="text-slate-400">I’m a 23-year-old software developer with a keen interest in exploring emerging trends and continuously expanding my skill set and expertise to deliver forward-thinking solutions.</p>
         <p className="text-slate-400">Everything here is more than just a collection of projects—it's a reflection of my skills, creativity, and dedication as a front-end developer. Every detail has been thoughtfully crafted to demonstrate my expertise in designing intuitive and visually engaging user experiences.</p>
         <p className="text-slate-400">Apart from this, I believe that health is our greatest asset and the best investment we can make in life. That’s why, when I’m not coding, you’ll find me lifting at the 
-          <span className="text-slate-200 cursor-pointer"> gym </span> 
+          <span className="text-slate-200 hover:text-sky-600 cursor-pointer transform hover:scale-110 transition-transform duration-300"> gym </span> 
           as well as travelling and reconnecting with nature to 
-          <span className="text-slate-200 cursor-pointer"> recharge.</span>
+          <span className="text-slate-200 hover:text-sky-600 cursor-pointer"> recharge.</span>
         </p>
         </div>
     </div>
