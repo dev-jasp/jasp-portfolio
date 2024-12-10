@@ -22,7 +22,7 @@ const Card: React.FC<CardProps> = ({ title, description, tags }) => {
                     <p className="card-text text-slate-400 text-sm mb-4 leading-relaxed font-normal">{description}</p>
                     <div className="flex flex-wrap gap-2 mb-3">
                         {tags.map((tag, index) => (
-                            <span key={index} className="tag bg-transparent bg-slate-800 rounded-full text-slate-300 text-xs px-2 py-1">
+                            <span key={index} className="tag bg-transparent bg-sky-600 border-2 border-slate-800 bg-opacity-5 rounded-full text-sky-600 text-xs px-2 py-1">
                                 {tag}
                             </span>
                         ))}

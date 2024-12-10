@@ -10,7 +10,7 @@ import CustomTooltip from './Tooltip/CustomTooltip';
 
 function About() {
   return (
-   <div className="py-8 px-6 w-full lg:ml-[600px] lg:w-[calc(100vw-600px)] lg:px-6 lg:items-center xl:ml-[40%] xl:px-16 xl:w-[calc(100vw-40%)] lg:bg-slate-950">
+   <div className="py-8 px-6 w-full lg:ml-[600px] lg:w-[calc(100vw-600px)] lg:px-6 lg:items-center xl:ml-[40%] xl:py-10 xl:px-32 xl:w-[calc(100vw-40%)] lg:bg-slate-950">
     <div className="spacey-y-0">
       <div className="space-y-6">
     <h1 className="flex items-center text-sky-600 text-2xl lg:text-2xl font-bold mb-8">
@@ -21,15 +21,25 @@ function About() {
       </span>
         About
       </h1>
-        <div className="space-y-4 hyphens-auto leading-7 lg:leading-relaxed font-[480] text-[17px] lg:text-base">
-        <p className="text-slate-400">I’m a 23-year-old software developer with a keen interest in exploring emerging trends and continuously expanding my skill set and expertise to deliver forward-thinking solutions.</p>
-        <p className="text-slate-400">Everything here is more than just a collection of projects—it's a reflection of my skills, creativity, and dedication as a front-end developer. Every detail has been thoughtfully crafted to demonstrate my expertise in designing intuitive and visually engaging user experiences.</p>
-        <p className="text-slate-400">Apart from this, I believe that health is our greatest asset and the best investment we can make in life. That’s why, when I’m not coding, you’ll find me lifting at the 
-          <span className="text-slate-100 hover:text-sky-600 cursor-pointer transform hover:scale-110 transition-transform duration-300"> gym </span> 
-          as well as travelling and reconnecting with nature to 
-          <span className="text-slate-100 hover:text-sky-600 cursor-pointer"> recharge.</span>
+     <div className="space-y-4 text:xs lg:text-base font-[450] leading-7 lg:leading-7 hyphens-auto tracking-tight">
+      {[
+        "I’m a 23-year-old software developer with a keen interest in exploring emerging trends and continuously expanding my skill set and expertise to deliver forward-thinking solutions.",
+        "Everything here is more than just a collection of projects—it's a reflection of my skills, creativity, and dedication as a front-end developer. Every detail has been thoughtfully crafted to demonstrate my expertise in designing intuitive and visually engaging user experiences.",
+        "Apart from this, I believe that health is our greatest asset and the best investment we can make in life. That’s why, when I’m not coding, you’ll find me lifting at the ",
+      ].map((text, index) => (
+        <p key={index} className="text-slate-400">
+          {index === 2 ? (
+            <>
+              {text}
+              <span className="highlight">gym</span> as well as travelling and reconnecting with nature to{" "}
+              <span className="highlight">recharge.</span> My enthusiasm mirrors balanced outlook on life and dedication to personal growth. {" "}
+            </>
+          ) : (
+            text
+          )}
         </p>
-        </div>
+      ))}
+    </div>
     </div>
     <div className="pt-8">
         <h1 className="flex items-center text-sky-600 text-2xl lg:text-2xl font-bold mb-8">

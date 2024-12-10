@@ -12,7 +12,7 @@ const Projects = () => {
 
   return (
     <section>
-        <div className="px-6 w-full h-96 lg:ml-[600px] lg:w-[calc(100vw-600px)] lg:px-10 lg:items-center xl:ml-[40%] xl:px-16 xl:w-[calc(100vw-40%)]  lg:bg-slate-950">
+        <div className="px-6 w-full h-96 lg:ml-[600px] lg:w-[calc(100vw-600px)] lg:px-10 lg:items-center xl:ml-[40%] xl:px-32 xl:w-[calc(100vw-40%)]  lg:bg-slate-950">
           <div>
             <h1 className="flex items-center text-sky-600 text-2xl lg:text-2xl font-bold mb-12">
             <span className="mr-2">

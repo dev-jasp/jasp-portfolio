@@ -14,3 +14,9 @@ body {
   background-color: #1a2a59;
   color: white;
 }
+
+@layer utilities {
+  .highlight {
+    @apply text-slate-100 hover:text-sky-600 cursor-pointer;
+  }
+}
