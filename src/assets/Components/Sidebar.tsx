@@ -35,7 +35,7 @@ const Sidebar = () => {
         }, 200);
 }; 
     return (
-        <aside className="top-0 left-0 h-full w-full px-6 py-4 flex flex-col items-start space-y-6 bg-gradient-to-r lg:items-center lg:fixed lg:w-[600px] xl:w-2/5 xl:px-8 lg:py-10 from-gray-900 to-slate-950">
+        <aside className="top-0 left-0 h-full w-full px-6 py-2 flex flex-col items-start space-y-6 bg-gradient-to-r lg:items-center lg:fixed lg:w-[600px] xl:w-2/5 xl:px-8 lg:py-0 from-gray-900 to-slate-950">
             <div className="lg:text-start">
                 <motion.div
                     variants={logoAnimation}
@@ -56,25 +56,25 @@ const Sidebar = () => {
                     initial={{x: -100, opacity: 0}}
                     animate= {{x:0, opacity: 1}}
                     transition={{duration: 0.5, delay: 0.9}}
-                    className="text-sky-600 text-xl lg:text-xl mb-3 font-semibold tracking-tight">Frontend Developer</motion.p>
+                    className="text-sky-600 text-xl  mb-3 font-semibold tracking-tight">Frontend Developer</motion.p>
                 <motion.p 
                     initial={{x: -100, opacity: 0}}
                     animate= {{x:0, opacity: 1}}
                     transition={{duration: 0.5, delay: 1.1}}
-                    className="flex flex-row text-slate-400 mb-5">
-                    <MdLocationOn className="mt-1 text-base lg:text-lg text-sky-600 " />
-                <span className="ml-1 tracking-tight">Zamboanga City, Philippines</span>
+                    className="flex flex-row text-slate-400 mb-4">
+                    <MdLocationOn className="mt-1 text-base text-sky-600 " />
+                <span className="ml-1 text-base tracking-tight lg:text-[15px]">Zamboanga City, Philippines</span>
                 </motion.p>
                 <motion.p 
                     initial={{x: -100, opacity: 0}}
                     animate= {{x:0, opacity: 1}}
                     transition={{duration: 0.5, delay: 1.3}}
-                    className="text-slate-300 text-[15px] lg:text-sm mb-1 lg:mb-4 "> Crafting Tech-infused Creativity  
+                    className="text-slate-400 text-[15px] lg:text-sm mb-1 lg:mb-4 "> Crafting Tech-infused Creativity  
                     <span className="text-sky-600 lg:text-[17px] font-extrabold"> |</span> Evolving with Technology
                 </motion.p>
             </div>
            
-            <div className="flex flex-start items-center space-x-5 mr-2 lg:mr-10">
+            <div className="flex flex-start items-center space-x-5 mr-2 lg:mr-10 ">
                 <motion.div 
                     initial={{ y: 100, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
@@ -87,7 +87,7 @@ const Sidebar = () => {
                     onClick={handleClick}
                 >
                   <button
-                        className="flex items-center mt-2  text-nowrap space-x-2 px-2 py-1 bg-transparent border-slate-500 border-2 text-gray-300 rounded-md hover:bg-sky-600 hover:border-sky-600 hover:text-slate-200 transition"
+                        className="flex items-center lg:mt-24  text-nowrap space-x-2 px-2 py-1 bg-transparent border-slate-500 border-2 text-gray-300 rounded-md hover:bg-sky-600 hover:border-sky-600 hover:text-slate-200 transition"
                     >
                         <span className="tracking-normal sm:text-base lg:text-base">Download My CV</span>
                         <motion.span
@@ -114,7 +114,7 @@ const Sidebar = () => {
                 </a>
                 </motion.div>
                 <Animation1>
-                <div className="flex space-x-4 text-xl lg:text-[22px] lg:ml-4">
+                <div className="flex space-x-4 text-xl lg:text-[22px] lg:mt-[89px] lg:ml-4">
                     <a href="https://www.linkedin.com/in/dev-jasp/" target="_blank" rel="noopener noreferrer">
                         <FiLinkedin className="text-slate-500 transform transition-transform ease-in-out duration-200 hover:scale-110 hover:text-sky-600 mt-2" />
                     </a>
