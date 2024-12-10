@@ -13,7 +13,7 @@ const Card: React.FC<CardProps> = ({ title, description, tags }) => {
                  src="./images/logo1.png" 
                  alt="" />
                 </div>
-                <div className=" p-4  ">
+                <div className=" p-2  ">
                     <div className="mb-4">
                 <a href={title} target="_blank" rel="noopener noreferrer" className=" text-slate-300 text-lg font-bold ">
                         {title}
