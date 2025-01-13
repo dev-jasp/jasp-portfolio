@@ -23,7 +23,7 @@ function About() {
       </h1>
      <div className="space-y-4 text:xs lg:text-base font-[450] leading-7 lg:leading-7 hyphens-auto tracking-tight">
       {[
-        "I’m a 23-year-old software developer with a keen interest in exploring emerging trends and continuously expanding my skill set and expertise to deliver forward-thinking solutions.",
+        "I’m a 24-year-old software developer with a keen interest in exploring emerging trends and continuously expanding my skill set and expertise to deliver forward-thinking solutions.",
         "Everything here is more than just a collection of projects—it's a reflection of my skills, creativity, and dedication as a front-end developer. Every detail has been thoughtfully crafted to demonstrate my expertise in designing intuitive and visually engaging user experiences.",
         "Apart from this, I believe that health is our greatest asset and the best investment we can make in life. That’s why, when I’m not coding, you’ll find me lifting at the ",
       ].map((text, index) => (
