@@ -89,7 +89,7 @@ const Sidebar = () => {
                 transition={{duration: 0.5, delay: 1.5}}
                 className="hidden lg:flex items-center gap-2 lg:mt-16"
                 >
-                        <h1 className=" text-slate-400 text-sm font-medium">Schedule a time with me</h1>
+                        <h1 className=" text-slate-400 text-sm` font-medium">Schedule a time with me</h1>
                         <button>
                         <a
                             href="https://calendly.com/jasphergargar/30min" 
