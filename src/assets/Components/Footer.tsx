@@ -1,7 +1,7 @@
-function Footer() {
+const Footer = () =>  {
   return (
     <section>
-      <div className="w-full py-12 px-6 lg:ml-[600px] lg:w-[calc(100vw-600px)] lg:px-10 lg:items-center xl:ml-[40%] xl:px-16 xl:w-[calc(100vw-40%)] lg:bg-slate-950">
+      <div className="w-full py-12 px-6 lg:ml-[600px] lg:w-[calc(100vw-600px)] lg:px-10 lg:items-center xl:ml-[40%] xl:px-28 xl:w-[calc(100vw-40%)] lg:bg-slate-950">
         
         <h1 className="text-center font-extrabold tracking-tight text-gray-400 text-md sm:text-2xl md:text-2xl lg:text=2xl">
           I'm currently seeking new opportunities
