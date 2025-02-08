@@ -8,13 +8,13 @@ const fadeInUp = {
 const Calendly = () => {
   return (
     <section className="hidden md:flex justify-end py-2 px-2 w-full lg:ml-[600px] lg:w-[calc(100vw-600px)] lg:px-6 lg:items-center xl:ml-[40%] xl:py-6 xl:px-32 xl:w-[calc(100vw-40%)] lg:bg-slate-950">
-  <div className="fixed top-14 right-8 z-50 bg-slate-950 px-4 rounded-xl border-2 border-sky-600">
-    <motion.div
-      variants={fadeInUp}
-      initial="hidden"
-      animate="visible"
-      custom={1.2}
-      className="md:flex items-center gap-2"
+  <motion.div 
+    variants={fadeInUp}
+    initial="hidden"
+    animate="visible"
+    custom={1.2}
+    className="fixed top-14 right-8 z-50 bg-slate-950 px-4 rounded-xl border-2 border-sky-600">
+    <div className="md:flex items-center gap-2"
     >
       <h1 className="text-slate-400 text-sm font-semibold">
         Schedule A Call with Me
@@ -59,8 +59,8 @@ const Calendly = () => {
           </span>
         </a>
       </button>
-    </motion.div>
-  </div>
+    </div>
+  </motion.div>
 </section>
 
   );
